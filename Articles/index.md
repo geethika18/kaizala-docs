@@ -11,7 +11,7 @@ ms.date: 04/04/2018
 
 <div id="main" class="v2">
 <div class="container">
-    <h1>Microsoft Kaizala</h1>
+    <h1>Kaizala</h1>
     <ul class="pivots">
         <li>
             <a href="#main"></a>
