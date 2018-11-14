@@ -39,7 +39,7 @@ ms.date: 04/04/2018
                             </a>
                         </li>
                         <li>
-                            <a href="https://geethika18.github.io/kaizala-docs/Articles/developer-platform">
+                            <a href="developer-platform">
                             <div class="cardSize">
                                 <div class="cardPadding">
                                     <div class="card">
