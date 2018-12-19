@@ -24,44 +24,11 @@
 					</ul>
 					<a href="../index.html" class="title"></a>
 				</div>
-				<div class="table-cell" id="tsd-widgets">
-					<div id="tsd-filter">
-						<a href="#" class="tsd-widget options no-caption" data-toggle="options">Options</a>
-						<div class="tsd-filter-group">
-							<div class="tsd-select" id="tsd-filter-visibility">
-								<span class="tsd-select-label">All</span>
-								<ul class="tsd-select-list">
-									<li data-value="public">Public</li>
-									<li data-value="protected">Public/Protected</li>
-									<li data-value="private" class="selected">All</li>
-								</ul>
-							</div>
-							<input type="checkbox" id="tsd-filter-inherited" checked />
-							<label class="tsd-widget" for="tsd-filter-inherited">Inherited</label>
-							<input type="checkbox" id="tsd-filter-externals" checked />
-							<label class="tsd-widget" for="tsd-filter-externals">Externals</label>
-							<input type="checkbox" id="tsd-filter-only-exported" />
-							<label class="tsd-widget" for="tsd-filter-only-exported">Only exported</label>
-						</div>
-					</div>
-					<a href="#" class="tsd-widget menu no-caption" data-toggle="menu">Menu</a>
-				</div>
 			</div>
 		</div>
 	</div>
 	<div class="tsd-page-title">
 		<div class="container">
-			<ul class="tsd-breadcrumb">
-				<li>
-					<a href="../index.html">Globals</a>
-				</li>
-				<li>
-					<a href="kasclient.html">KASClient</a>
-				</li>
-				<li>
-					<a href="kasclient.app.html">App</a>
-				</li>
-			</ul>
 			<h1>Module App</h1>
 		</div>
 	</div>
@@ -95,6 +62,7 @@
 								<li class="tsd-kind-function tsd-parent-kind-module"><a href="kasclient.app.html#getapplocaleasync" class="tsd-kind-icon">get<wbr>App<wbr>Locale<wbr>Async</a></li>
 								<li class="tsd-kind-function tsd-parent-kind-module"><a href="kasclient.app.html#getcalendarnameasync" class="tsd-kind-icon">get<wbr>Calendar<wbr>Name<wbr>Async</a></li>
 								<li class="tsd-kind-function tsd-parent-kind-module"><a href="kasclient.app.html#getclientdetailsasync" class="tsd-kind-icon">get<wbr>Client<wbr>Details<wbr>Async</a></li>
+								<li class="tsd-kind-function tsd-parent-kind-module"><a href="kasclient.app.html#getconversationdetailsasync" class="tsd-kind-icon">get<wbr>Conversation<wbr>Details<wbr>Async</a></li>
 								<li class="tsd-kind-function tsd-parent-kind-module"><a href="kasclient.app.html#getconversationnameasync" class="tsd-kind-icon">get<wbr>Conversation<wbr>Name<wbr>Async</a></li>
 								<li class="tsd-kind-function tsd-parent-kind-module"><a href="kasclient.app.html#getconversationparticipantsasync" class="tsd-kind-icon">get<wbr>Conversation<wbr>Participants<wbr>Async</a></li>
 								<li class="tsd-kind-function tsd-parent-kind-module"><a href="kasclient.app.html#getconversationparticipantscountasync" class="tsd-kind-icon">get<wbr>Conversation<wbr>Participants<wbr>Count<wbr>Async</a></li>
@@ -109,6 +77,8 @@
 								<li class="tsd-kind-function tsd-parent-kind-module"><a href="kasclient.app.html#getintegerationservicetokenasync" class="tsd-kind-icon">get<wbr>Integeration<wbr>Service<wbr>Token<wbr>Async</a></li>
 								<li class="tsd-kind-function tsd-parent-kind-module"><a href="kasclient.app.html#getisapptimeformat24hoursasync" class="tsd-kind-icon">get<wbr>IsApp<wbr>Time<wbr>Format24<wbr>Hours<wbr>Async</a></li>
 								<li class="tsd-kind-function tsd-parent-kind-module"><a href="kasclient.app.html#getlocalizedstringsasync" class="tsd-kind-icon">get<wbr>Localized<wbr>Strings<wbr>Async</a></li>
+								<li class="tsd-kind-function tsd-parent-kind-module"><a href="kasclient.app.html#getlocationaddressasync" class="tsd-kind-icon">get<wbr>Location<wbr>Address<wbr>Async</a></li>
+								<li class="tsd-kind-function tsd-parent-kind-module"><a href="kasclient.app.html#getmapimageasbase64async" class="tsd-kind-icon">get<wbr>Map<wbr>Image<wbr>AsBase64<wbr>Async</a></li>
 								<li class="tsd-kind-function tsd-parent-kind-module"><a href="kasclient.app.html#geto365userdetailsasync" class="tsd-kind-icon">get<wbr>O365<wbr>User<wbr>Details<wbr>Async</a></li>
 								<li class="tsd-kind-function tsd-parent-kind-module"><a href="kasclient.app.html#getpackagecustomsettingsasync" class="tsd-kind-icon">get<wbr>Package<wbr>Custom<wbr>Settings<wbr>Async</a></li>
 								<li class="tsd-kind-function tsd-parent-kind-module"><a href="kasclient.app.html#getpackagepropertiesasync" class="tsd-kind-icon">get<wbr>Package<wbr>Properties<wbr>Async</a></li>
@@ -213,13 +183,7 @@
 							<dt>param</dt>
 							<dd><p>with below parameters:</p>
 								<ul>
-									<li><ul>
-											<li><ul>
-													<li>@param {boolean} success denotes the success/failure of the initialization</li>
-												</ul>
-											</li>
-										</ul>
-									</li>
+									<li>@param {boolean} success denotes the success/failure of the initialization</li>
 								</ul>
 							</dd>
 						</dl>
@@ -267,9 +231,18 @@
 							<aside class="tsd-sources">
 							</aside>
 							<div class="tsd-comment tsd-typography">
-								<div class="lead">
-									<p>Cancel a download operation queued for an attachment</p>
-								</div>
+								<dl class="tsd-comment-tags">
+									<dt>example</dt>
+									<dd><pre><code class="language-typescript"> <span class="hljs-keyword">var</span> attachmentsList = <span class="hljs-built_in">JSON</span>.parse(form.properties[<span class="hljs-number">0</span>].value);
+ <span class="hljs-keyword">for</span> (<span class="hljs-keyword">var</span> i = <span class="hljs-number">0</span>; i &lt; attachmentsList.length; i++)
+ {
+      <span class="hljs-keyword">var</span> attachmentItem = attachmentsList[i];
+      <span class="hljs-keyword">var</span> attachment = KASClient.KASAttachment.fromJSON(attachmentItem);
+      KASClient.App.cancelAttachmentDownloadAsync(attachment);
+ }</code></pre>
+										<p>Cancel a download operation queued for an attachment</p>
+									</dd>
+								</dl>
 							</div>
 							<h4 class="tsd-parameters-title">Parameters</h4>
 							<ul class="tsd-parameters">
@@ -334,9 +307,25 @@
 							<aside class="tsd-sources">
 							</aside>
 							<div class="tsd-comment tsd-typography">
-								<div class="lead">
-									<p>Download the attachment specified</p>
-								</div>
+								<dl class="tsd-comment-tags">
+									<dt>example</dt>
+									<dd><pre><code class="language-typescript"><span class="hljs-keyword">var</span> attachmentJson = {
+  ty: <span class="hljs-number">3</span>,
+  afn: <span class="hljs-string">"131490_Desert (1) (4).pdf"</span>,
+  lpu: <span class="hljs-string">""</span>,
+  spu: <span class="hljs-string">'&lt;server path&gt;'</span>,
+  asb: <span class="hljs-number">846941</span>,
+  id:<span class="hljs-string">''</span>
+};
+<span class="hljs-keyword">var</span> attachment = KASClient.KASAttachment.fromJSON(attachmentJson);
+KASClient.App.downloadAttachmentAsync(attachment, <span class="hljs-function"><span class="hljs-keyword">function</span>(<span class="hljs-params">downloadedAttachment, error</span>)</span>{
+     <span class="hljs-keyword">if</span> (!error) {
+        <span class="hljs-built_in">console</span>.log(downloadedAttachment); <span class="hljs-comment">//KASAttachment</span>
+     }
+});</code></pre>
+										<p>Download the attachment specified</p>
+									</dd>
+								</dl>
 							</div>
 							<h4 class="tsd-parameters-title">Parameters</h4>
 							<ul class="tsd-parameters">
@@ -389,9 +378,16 @@
 							<aside class="tsd-sources">
 							</aside>
 							<div class="tsd-comment tsd-typography">
-								<div class="lead">
-									<p>Generates Base64 thumbnail for an image whose localPath is given</p>
-								</div>
+								<dl class="tsd-comment-tags">
+									<dt>example</dt>
+									<dd><pre><code class="language-typescript">KASClient.App.generateBase64ThumbnailAsync(localPath, <span class="hljs-function"><span class="hljs-keyword">function</span> (<span class="hljs-params">thumbnail, error</span>) </span>{
+    <span class="hljs-keyword">if</span> (error == <span class="hljs-literal">null</span> &amp;&amp; thumbnail != <span class="hljs-literal">null</span>) {
+       <span class="hljs-comment">//use the thumbnail data and update required dom</span>
+     }
+});</code></pre>
+										<p>Generates Base64 thumbnail for an image whose localPath is given</p>
+									</dd>
+								</dl>
 							</div>
 							<h4 class="tsd-parameters-title">Parameters</h4>
 							<ul class="tsd-parameters">
@@ -441,9 +437,15 @@
 							<aside class="tsd-sources">
 							</aside>
 							<div class="tsd-comment tsd-typography">
-								<div class="lead">
-									<p>Gets the new UUID</p>
-								</div>
+								<dl class="tsd-comment-tags">
+									<dt>example</dt>
+									<dd><pre><code class="language-typescript"> KASClient.App.generateUUIDAsync(<span class="hljs-function"><span class="hljs-keyword">function</span> (<span class="hljs-params">uuid, error</span>) </span>{
+    <span class="hljs-built_in">console</span>.log(<span class="hljs-string">"generatedUUIDAsync"</span>, uuid);
+    ...
+ });</code></pre>
+										<p>Gets the new UUID</p>
+									</dd>
+								</dl>
 							</div>
 							<h4 class="tsd-parameters-title">Parameters</h4>
 							<ul class="tsd-parameters">
@@ -452,20 +454,8 @@
 									<div class="tsd-comment tsd-typography">
 										<p>with below parameters:</p>
 										<ul>
-											<li><ul>
-													<li><ul>
-															<li>@param {string} uuid newly generated uuid</li>
-														</ul>
-													</li>
-												</ul>
-											</li>
-											<li><ul>
-													<li><ul>
-															<li>@param {string} error message in case of error, null otherwise</li>
-														</ul>
-													</li>
-												</ul>
-											</li>
+											<li>@param {string} uuid newly generated uuid</li>
+											<li>@param {string} error message in case of error, null otherwise</li>
 										</ul>
 									</div>
 									<ul class="tsd-parameters">
@@ -517,20 +507,8 @@
 									<div class="tsd-comment tsd-typography">
 										<p>with below parameters:</p>
 										<ul>
-											<li><ul>
-													<li><ul>
-															<li>@param {string} locale can be null in case of error</li>
-														</ul>
-													</li>
-												</ul>
-											</li>
-											<li><ul>
-													<li><ul>
-															<li>@param {string} error message in case of error, null otherwise</li>
-														</ul>
-													</li>
-												</ul>
-											</li>
+											<li>@param {string} locale can be null in case of error</li>
+											<li>@param {string} error message in case of error, null otherwise</li>
 										</ul>
 									</div>
 									<ul class="tsd-parameters">
@@ -582,20 +560,8 @@
 									<div class="tsd-comment tsd-typography">
 										<p>with below parameters:</p>
 										<ul>
-											<li><ul>
-													<li><ul>
-															<li>@param {string} calendarName can be null in case of error</li>
-														</ul>
-													</li>
-												</ul>
-											</li>
-											<li><ul>
-													<li><ul>
-															<li>@param {string} error message in case of error, null otherwise</li>
-														</ul>
-													</li>
-												</ul>
-											</li>
+											<li>@param {string} calendarName can be null in case of error</li>
+											<li>@param {string} error message in case of error, null otherwise</li>
 										</ul>
 									</div>
 									<ul class="tsd-parameters">
@@ -647,20 +613,8 @@
 									<div class="tsd-comment tsd-typography">
 										<p>with below parameters:</p>
 										<ul>
-											<li><ul>
-													<li><ul>
-															<li>@param {JSON} properties can be null in case of error</li>
-														</ul>
-													</li>
-												</ul>
-											</li>
-											<li><ul>
-													<li><ul>
-															<li>@param {string} error message in case of error, null otherwise</li>
-														</ul>
-													</li>
-												</ul>
-											</li>
+											<li>@param {JSON} properties can be null in case of error</li>
+											<li>@param {string} error message in case of error, null otherwise</li>
 										</ul>
 									</div>
 									<ul class="tsd-parameters">
@@ -691,10 +645,10 @@
 					</ul>
 				</section>
 				<section class="tsd-panel tsd-member tsd-kind-function tsd-parent-kind-module">
-					<a name="getconversationnameasync" class="tsd-anchor"></a>
-					<h3>get<wbr>Conversation<wbr>Name<wbr>Async</h3>
+					<a name="getconversationdetailsasync" class="tsd-anchor"></a>
+					<h3>get<wbr>Conversation<wbr>Details<wbr>Async</h3>
 					<ul class="tsd-signatures tsd-kind-function tsd-parent-kind-module">
-						<li class="tsd-signature tsd-kind-icon">get<wbr>Conversation<wbr>Name<wbr>Async<span class="tsd-signature-symbol">(</span>callback<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">function</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">void</span></li>
+						<li class="tsd-signature tsd-kind-icon">get<wbr>Conversation<wbr>Details<wbr>Async<span class="tsd-signature-symbol">(</span>callback<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">function</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">void</span></li>
 					</ul>
 					<ul class="tsd-descriptions">
 						<li class="tsd-description">
@@ -702,7 +656,7 @@
 							</aside>
 							<div class="tsd-comment tsd-typography">
 								<div class="lead">
-									<p>Gets the current conversation name</p>
+									<p>Gets conversation related properties</p>
 								</div>
 							</div>
 							<h4 class="tsd-parameters-title">Parameters</h4>
@@ -714,18 +668,79 @@
 										<ul>
 											<li><ul>
 													<li><ul>
-															<li>@param {string} name can be null in case of error</li>
+															<li>@param {KASConversationDetails} result conversation properties</li>
 														</ul>
 													</li>
 												</ul>
 											</li>
 											<li><ul>
 													<li><ul>
-															<li>@param {string} error message in case of error, null otherwise</li>
+															<li>@param {string} error json string for the KASError object containing error code and/or description.</li>
 														</ul>
 													</li>
 												</ul>
 											</li>
+										</ul>
+									</div>
+									<ul class="tsd-parameters">
+										<li class="tsd-parameter-siganture">
+											<ul class="tsd-signatures tsd-kind-type-literal tsd-is-not-exported">
+												<li class="tsd-signature tsd-kind-icon"><span class="tsd-signature-symbol">(</span>result<span class="tsd-signature-symbol">: </span><a href="../classes/kasclient.kasconversationdetails.html" class="tsd-signature-type">KASConversationDetails</a>, error<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">string</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">void</span></li>
+											</ul>
+											<ul class="tsd-descriptions">
+												<li class="tsd-description">
+													<h4 class="tsd-parameters-title">Parameters</h4>
+													<ul class="tsd-parameters">
+														<li>
+															<h5>result: <a href="../classes/kasclient.kasconversationdetails.html" class="tsd-signature-type">KASConversationDetails</a></h5>
+														</li>
+														<li>
+															<h5>error: <span class="tsd-signature-type">string</span></h5>
+														</li>
+													</ul>
+													<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">void</span></h4>
+												</li>
+											</ul>
+										</li>
+									</ul>
+								</li>
+							</ul>
+							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">void</span></h4>
+						</li>
+					</ul>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-function tsd-parent-kind-module">
+					<a name="getconversationnameasync" class="tsd-anchor"></a>
+					<h3>get<wbr>Conversation<wbr>Name<wbr>Async</h3>
+					<ul class="tsd-signatures tsd-kind-function tsd-parent-kind-module">
+						<li class="tsd-signature tsd-kind-icon">get<wbr>Conversation<wbr>Name<wbr>Async<span class="tsd-signature-symbol">(</span>callback<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">function</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">void</span></li>
+					</ul>
+					<ul class="tsd-descriptions">
+						<li class="tsd-description">
+							<aside class="tsd-sources">
+							</aside>
+							<div class="tsd-comment tsd-typography">
+								<dl class="tsd-comment-tags">
+									<dt>example</dt>
+									<dd><pre><code class="language-typescript">KASClient.App.getConversationNameAsync(<span class="hljs-function"><span class="hljs-keyword">function</span> (<span class="hljs-params">name, error</span>) </span>{
+   <span class="hljs-keyword">if</span> (error != <span class="hljs-literal">null</span>) {
+       <span class="hljs-keyword">return</span>;
+   }
+   <span class="hljs-comment">//use the name as conversation name;</span>
+});</code></pre>
+										<p>Gets the current conversation name</p>
+									</dd>
+								</dl>
+							</div>
+							<h4 class="tsd-parameters-title">Parameters</h4>
+							<ul class="tsd-parameters">
+								<li>
+									<h5>callback: <span class="tsd-signature-type">function</span></h5>
+									<div class="tsd-comment tsd-typography">
+										<p>with below parameters:</p>
+										<ul>
+											<li>@param {string} name can be null in case of error</li>
+											<li>@param {string} error message in case of error, null otherwise</li>
 										</ul>
 									</div>
 									<ul class="tsd-parameters">
@@ -777,13 +792,7 @@
 									<div class="tsd-comment tsd-typography">
 										<p>with below parameters:</p>
 										<ul>
-											<li><ul>
-													<li><ul>
-															<li>@param {string[]} participants Array of members for the  current group. Will return empty array if user if not the member of the group.</li>
-														</ul>
-													</li>
-												</ul>
-											</li>
+											<li>@param {string[]} participants Array of members for the  current group. Will return empty array if user if not the member of the group.</li>
 										</ul>
 									</div>
 									<ul class="tsd-parameters">
@@ -824,9 +833,17 @@
 							<aside class="tsd-sources">
 							</aside>
 							<div class="tsd-comment tsd-typography">
-								<div class="lead">
-									<p>Gets all the participant-ids of the current conversation</p>
-								</div>
+								<dl class="tsd-comment-tags">
+									<dt>example</dt>
+									<dd><pre><code class="language-typescript">KASClient.App.getConversationParticipantsCountAsync(<span class="hljs-function"><span class="hljs-keyword">function</span> (<span class="hljs-params">count, error</span>) </span>{
+    <span class="hljs-keyword">if</span> (error != <span class="hljs-literal">null</span>) {
+        <span class="hljs-keyword">return</span>;
+    }
+    <span class="hljs-comment">//use count as the participant count</span>
+});</code></pre>
+										<p>Gets all the participant-ids of the current conversation</p>
+									</dd>
+								</dl>
 							</div>
 							<h4 class="tsd-parameters-title">Parameters</h4>
 							<ul class="tsd-parameters">
@@ -835,20 +852,8 @@
 									<div class="tsd-comment tsd-typography">
 										<p>with below parameters:</p>
 										<ul>
-											<li><ul>
-													<li><ul>
-															<li>@param {string} name can be null in case of error</li>
-														</ul>
-													</li>
-												</ul>
-											</li>
-											<li><ul>
-													<li><ul>
-															<li>@param {string} error message in case of error, null otherwise</li>
-														</ul>
-													</li>
-												</ul>
-											</li>
+											<li>@param {string} name can be null in case of error</li>
+											<li>@param {string} error message in case of error, null otherwise</li>
 										</ul>
 									</div>
 									<ul class="tsd-parameters">
@@ -889,9 +894,17 @@
 							<aside class="tsd-sources">
 							</aside>
 							<div class="tsd-comment tsd-typography">
-								<div class="lead">
-									<p>Gets the current conversation type</p>
-								</div>
+								<dl class="tsd-comment-tags">
+									<dt>example</dt>
+									<dd><pre><code class="language-typescript">KASClient.App.getConversationTypeAsync(<span class="hljs-function"><span class="hljs-keyword">function</span> (<span class="hljs-params">conversationType, error</span>) </span>{
+     <span class="hljs-keyword">if</span> (error != <span class="hljs-literal">null</span>) {
+        <span class="hljs-keyword">return</span>;
+     }
+     ...
+});</code></pre>
+										<p>Gets the current conversation type</p>
+									</dd>
+								</dl>
 							</div>
 							<h4 class="tsd-parameters-title">Parameters</h4>
 							<ul class="tsd-parameters">
@@ -900,20 +913,8 @@
 									<div class="tsd-comment tsd-typography">
 										<p>with below parameters:</p>
 										<ul>
-											<li><ul>
-													<li><ul>
-															<li>@param {number} conversationType can be null in case of error</li>
-														</ul>
-													</li>
-												</ul>
-											</li>
-											<li><ul>
-													<li><ul>
-															<li>@param {string} error message in case of error, null otherwise</li>
-														</ul>
-													</li>
-												</ul>
-											</li>
+											<li>@param {number} conversationType can be null in case of error</li>
+											<li>@param {string} error message in case of error, null otherwise</li>
 										</ul>
 									</div>
 									<ul class="tsd-parameters">
@@ -954,9 +955,17 @@
 							<aside class="tsd-sources">
 							</aside>
 							<div class="tsd-comment tsd-typography">
-								<div class="lead">
-									<p>Gets the current device location</p>
-								</div>
+								<dl class="tsd-comment-tags">
+									<dt>example</dt>
+									<dd><pre><code class="language-typescript"> KASClient.App.getCurrentDeviceLocationAsync(<span class="hljs-function"><span class="hljs-keyword">function</span> (<span class="hljs-params">location, error</span>)</span>{
+     <span class="hljs-keyword">if</span>(error != <span class="hljs-literal">null</span>) {
+          <span class="hljs-keyword">return</span>;
+     }
+     <span class="hljs-comment">//use location(KASLocation) as the device location</span>
+ });</code></pre>
+										<p>Gets the current device location</p>
+									</dd>
+								</dl>
 							</div>
 							<h4 class="tsd-parameters-title">Parameters</h4>
 							<ul class="tsd-parameters">
@@ -965,20 +974,8 @@
 									<div class="tsd-comment tsd-typography">
 										<p>with below parameters:</p>
 										<ul>
-											<li><ul>
-													<li><ul>
-															<li>@param {string} location can be null in case of error</li>
-														</ul>
-													</li>
-												</ul>
-											</li>
-											<li><ul>
-													<li><ul>
-															<li>@param {string} error message in case of error, null otherwise</li>
-														</ul>
-													</li>
-												</ul>
-											</li>
+											<li>@param {string} location can be null in case of error</li>
+											<li>@param {string} error message in case of error, null otherwise</li>
 										</ul>
 									</div>
 									<ul class="tsd-parameters">
@@ -1033,9 +1030,17 @@
 							<aside class="tsd-sources">
 							</aside>
 							<div class="tsd-comment tsd-typography">
-								<div class="lead">
-									<p>Gets the current user id who has opened the MiniApp</p>
-								</div>
+								<dl class="tsd-comment-tags">
+									<dt>example</dt>
+									<dd><pre><code class="language-typescript">KASClient.App.getCurrentUserIdAsync(<span class="hljs-function"><span class="hljs-keyword">function</span> (<span class="hljs-params">userId, error</span>) </span>{
+    <span class="hljs-keyword">if</span> (error != <span class="hljs-literal">null</span>) {
+        <span class="hljs-keyword">return</span>;
+    }
+    <span class="hljs-comment">// use userId as the current user's id</span>
+});</code></pre>
+										<p>Gets the current user id who has opened the MiniApp</p>
+									</dd>
+								</dl>
 							</div>
 							<h4 class="tsd-parameters-title">Parameters</h4>
 							<ul class="tsd-parameters">
@@ -1044,20 +1049,8 @@
 									<div class="tsd-comment tsd-typography">
 										<p>with below parameters:</p>
 										<ul>
-											<li><ul>
-													<li><ul>
-															<li>@param {string} userId can be null in case of error</li>
-														</ul>
-													</li>
-												</ul>
-											</li>
-											<li><ul>
-													<li><ul>
-															<li>@param {string} error message in case of error, null otherwise</li>
-														</ul>
-													</li>
-												</ul>
-											</li>
+											<li>@param {string} userId can be null in case of error</li>
+											<li>@param {string} error message in case of error, null otherwise</li>
 										</ul>
 									</div>
 									<ul class="tsd-parameters">
@@ -1109,20 +1102,8 @@
 									<div class="tsd-comment tsd-typography">
 										<p>with below parameters:</p>
 										<ul>
-											<li><ul>
-													<li><ul>
-															<li>@param {string} deviceId got from integeration service</li>
-														</ul>
-													</li>
-												</ul>
-											</li>
-											<li><ul>
-													<li><ul>
-															<li>@param {string} error message in case of error, null otherwise</li>
-														</ul>
-													</li>
-												</ul>
-											</li>
+											<li>@param {string} deviceId got from integeration service</li>
+											<li>@param {string} error message in case of error, null otherwise</li>
 										</ul>
 									</div>
 									<ul class="tsd-parameters">
@@ -1174,20 +1155,8 @@
 									<div class="tsd-comment tsd-typography">
 										<p>with below parameters:</p>
 										<ul>
-											<li><ul>
-													<li><ul>
-															<li>@param {string} location can be null in case of error</li>
-														</ul>
-													</li>
-												</ul>
-											</li>
-											<li><ul>
-													<li><ul>
-															<li>@param {string} error message in case of error, null otherwise</li>
-														</ul>
-													</li>
-												</ul>
-											</li>
+											<li>@param {string} location can be null in case of error</li>
+											<li>@param {string} error message in case of error, null otherwise</li>
 										</ul>
 									</div>
 									<ul class="tsd-parameters">
@@ -1286,13 +1255,7 @@
 									<div class="tsd-comment tsd-typography">
 										<p>with below parameters:</p>
 										<ul>
-											<li><ul>
-													<li><ul>
-															<li>@param {Json} returns the Context Details in Json structure</li>
-														</ul>
-													</li>
-												</ul>
-											</li>
+											<li>@param {Json} returns the Context Details in Json structure</li>
 										</ul>
 									</div>
 									<ul class="tsd-parameters">
@@ -1333,9 +1296,20 @@
 							<aside class="tsd-sources">
 							</aside>
 							<div class="tsd-comment tsd-typography">
-								<div class="lead">
-									<p>Gets users&#39; details (name, pic, phone number, etc.) against their ids</p>
-								</div>
+								<dl class="tsd-comment-tags">
+									<dt>example</dt>
+									<dd><pre><code class="language-typescript">KASClient.App.getIntegerationServiceTokenAsync(<span class="hljs-function"><span class="hljs-keyword">function</span>(<span class="hljs-params">token, error</span>) </span>{
+        <span class="hljs-comment">// If fetch token fails...</span>
+        <span class="hljs-keyword">if</span> (token == <span class="hljs-literal">null</span> || token == <span class="hljs-string">""</span> || error != <span class="hljs-literal">null</span>)
+        {
+          <span class="hljs-comment">// handleError</span>
+        } <span class="hljs-keyword">else</span> {
+     <span class="hljs-comment">//use the token</span>
+   }
+});</code></pre>
+										<p>Gets users&#39; details (name, pic, phone number, etc.) against their ids</p>
+									</dd>
+								</dl>
 							</div>
 							<h4 class="tsd-parameters-title">Parameters</h4>
 							<ul class="tsd-parameters">
@@ -1344,20 +1318,8 @@
 									<div class="tsd-comment tsd-typography">
 										<p>with below parameters:</p>
 										<ul>
-											<li><ul>
-													<li><ul>
-															<li>@param {string} token got from integeration service</li>
-														</ul>
-													</li>
-												</ul>
-											</li>
-											<li><ul>
-													<li><ul>
-															<li>@param {string} error message in case of error, null otherwise</li>
-														</ul>
-													</li>
-												</ul>
-											</li>
+											<li>@param {string} token got from integeration service</li>
+											<li>@param {string} error message in case of error, null otherwise</li>
 										</ul>
 									</div>
 									<ul class="tsd-parameters">
@@ -1409,20 +1371,8 @@
 									<div class="tsd-comment tsd-typography">
 										<p>with below parameters:</p>
 										<ul>
-											<li><ul>
-													<li><ul>
-															<li>@param {string} isAppTimeFormat24Hours can be null in case of error</li>
-														</ul>
-													</li>
-												</ul>
-											</li>
-											<li><ul>
-													<li><ul>
-															<li>@param {string} error message in case of error, null otherwise</li>
-														</ul>
-													</li>
-												</ul>
-											</li>
+											<li>@param {string} isAppTimeFormat24Hours can be null in case of error</li>
+											<li>@param {string} error message in case of error, null otherwise</li>
 										</ul>
 									</div>
 									<ul class="tsd-parameters">
@@ -1463,10 +1413,18 @@
 							<aside class="tsd-sources">
 							</aside>
 							<div class="tsd-comment tsd-typography">
-								<div class="lead">
-									<p>Gets the localized strings&#39; dictionary based on current app locale.
-									Strings must be provided inside the package with names like: strings_en.json, strings_hi.json, etc.</p>
-								</div>
+								<dl class="tsd-comment-tags">
+									<dt>example</dt>
+									<dd><pre><code class="language-typescript">KASClient.App.getLocalizedStringsAsync(<span class="hljs-function"><span class="hljs-keyword">function</span> (<span class="hljs-params">strings, error</span>) </span>{
+    <span class="hljs-keyword">if</span> (error != <span class="hljs-literal">null</span>) {
+        <span class="hljs-keyword">return</span>;
+    }
+    <span class="hljs-comment">//use the localized strings array</span>
+});</code></pre>
+										<p>Gets the localized strings&#39; dictionary based on current app locale.
+										Strings must be provided inside the package with names like: strings_en.json, strings_hi.json, etc.</p>
+									</dd>
+								</dl>
 							</div>
 							<h4 class="tsd-parameters-title">Parameters</h4>
 							<ul class="tsd-parameters">
@@ -1475,20 +1433,8 @@
 									<div class="tsd-comment tsd-typography">
 										<p>with below parameters:</p>
 										<ul>
-											<li><ul>
-													<li><ul>
-															<li>@param {JSON} strings can be null in case of error</li>
-														</ul>
-													</li>
-												</ul>
-											</li>
-											<li><ul>
-													<li><ul>
-															<li>@param {string} error message in case of error, null otherwise</li>
-														</ul>
-													</li>
-												</ul>
-											</li>
+											<li>@param {JSON} strings can be null in case of error</li>
+											<li>@param {string} error message in case of error, null otherwise</li>
 										</ul>
 									</div>
 									<ul class="tsd-parameters">
@@ -1502,6 +1448,136 @@
 													<ul class="tsd-parameters">
 														<li>
 															<h5>strings: <span class="tsd-signature-type">JSON</span></h5>
+														</li>
+														<li>
+															<h5>error: <span class="tsd-signature-type">string</span></h5>
+														</li>
+													</ul>
+													<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">void</span></h4>
+												</li>
+											</ul>
+										</li>
+									</ul>
+								</li>
+							</ul>
+							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">void</span></h4>
+						</li>
+					</ul>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-function tsd-parent-kind-module">
+					<a name="getlocationaddressasync" class="tsd-anchor"></a>
+					<h3>get<wbr>Location<wbr>Address<wbr>Async</h3>
+					<ul class="tsd-signatures tsd-kind-function tsd-parent-kind-module">
+						<li class="tsd-signature tsd-kind-icon">get<wbr>Location<wbr>Address<wbr>Async<span class="tsd-signature-symbol">(</span>params<span class="tsd-signature-symbol">: </span><a href="../classes/kasclient.kaslocationaddressparams.html" class="tsd-signature-type">KASLocationAddressParams</a>, callback<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">function</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">void</span></li>
+					</ul>
+					<ul class="tsd-descriptions">
+						<li class="tsd-description">
+							<aside class="tsd-sources">
+							</aside>
+							<div class="tsd-comment tsd-typography">
+								<dl class="tsd-comment-tags">
+									<dt>example</dt>
+									<dd><pre><code class="language-typescript"><span class="hljs-keyword">var</span> params = <span class="hljs-keyword">new</span> KASClient.KASLocationAddressParams();
+params.latitude =  &lt;latitude value&gt;;
+params.longitude =  &lt;longitude value&gt;;
+KASClient.App.getLocationAddressAsync(params,
+    <span class="hljs-function"><span class="hljs-keyword">function</span> (<span class="hljs-params">address, error</span>) </span>{
+        <span class="hljs-keyword">if</span> (!error) {
+           <span class="hljs-comment">// do something with address - a JSON returned by google structure can be found at https://developers.google.com/maps/documentation/geocoding/intro#GeocodingResponses</span>
+        }
+    }
+});</code></pre>
+										<p>Get address string for specified coordinates</p>
+									</dd>
+								</dl>
+							</div>
+							<h4 class="tsd-parameters-title">Parameters</h4>
+							<ul class="tsd-parameters">
+								<li>
+									<h5>params: <a href="../classes/kasclient.kaslocationaddressparams.html" class="tsd-signature-type">KASLocationAddressParams</a></h5>
+									<div class="tsd-comment tsd-typography">
+										<p>KASLocationAddressParams</p>
+									</div>
+								</li>
+								<li>
+									<h5>callback: <span class="tsd-signature-type">function</span></h5>
+									<div class="tsd-comment tsd-typography">
+										<p>callback on address fetch</p>
+									</div>
+									<ul class="tsd-parameters">
+										<li class="tsd-parameter-siganture">
+											<ul class="tsd-signatures tsd-kind-type-literal tsd-is-not-exported">
+												<li class="tsd-signature tsd-kind-icon"><span class="tsd-signature-symbol">(</span>json<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">JSON</span>, error<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">string</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">void</span></li>
+											</ul>
+											<ul class="tsd-descriptions">
+												<li class="tsd-description">
+													<h4 class="tsd-parameters-title">Parameters</h4>
+													<ul class="tsd-parameters">
+														<li>
+															<h5>json: <span class="tsd-signature-type">JSON</span></h5>
+														</li>
+														<li>
+															<h5>error: <span class="tsd-signature-type">string</span></h5>
+														</li>
+													</ul>
+													<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">void</span></h4>
+												</li>
+											</ul>
+										</li>
+									</ul>
+								</li>
+							</ul>
+							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">void</span></h4>
+						</li>
+					</ul>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-function tsd-parent-kind-module">
+					<a name="getmapimageasbase64async" class="tsd-anchor"></a>
+					<h3>get<wbr>Map<wbr>Image<wbr>AsBase64<wbr>Async</h3>
+					<ul class="tsd-signatures tsd-kind-function tsd-parent-kind-module">
+						<li class="tsd-signature tsd-kind-icon">get<wbr>Map<wbr>Image<wbr>AsBase64<wbr>Async<span class="tsd-signature-symbol">(</span>params<span class="tsd-signature-symbol">: </span><a href="../classes/kasclient.kaslocationstaticmapimageparams.html" class="tsd-signature-type">KASLocationStaticMapImageParams</a>, callback<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">function</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">void</span></li>
+					</ul>
+					<ul class="tsd-descriptions">
+						<li class="tsd-description">
+							<aside class="tsd-sources">
+							</aside>
+							<div class="tsd-comment tsd-typography">
+								<dl class="tsd-comment-tags">
+									<dt>example</dt>
+									<dd><pre><code class="language-typescript">KASClient.App.getMapImageAsBase64Async(params, <span class="hljs-function"><span class="hljs-keyword">function</span> (<span class="hljs-params">attachmentString, error</span>) </span>{
+        <span class="hljs-keyword">if</span> (!error) {
+            blobString = <span class="hljs-string">"data:image/jpeg;base64,"</span> + attachmentString;
+            <span class="hljs-comment">//use blobString as base64 data</span>
+        }
+ });</code></pre>
+										<p>Download the base 64 image of map for the coordinates specified</p>
+									</dd>
+								</dl>
+							</div>
+							<h4 class="tsd-parameters-title">Parameters</h4>
+							<ul class="tsd-parameters">
+								<li>
+									<h5>params: <a href="../classes/kasclient.kaslocationstaticmapimageparams.html" class="tsd-signature-type">KASLocationStaticMapImageParams</a></h5>
+									<div class="tsd-comment tsd-typography">
+										<p>KASLocationStaticMapImageParams</p>
+									</div>
+								</li>
+								<li>
+									<h5>callback: <span class="tsd-signature-type">function</span></h5>
+									<div class="tsd-comment tsd-typography">
+										<p>callback on download completion</p>
+									</div>
+									<ul class="tsd-parameters">
+										<li class="tsd-parameter-siganture">
+											<ul class="tsd-signatures tsd-kind-type-literal tsd-is-not-exported">
+												<li class="tsd-signature tsd-kind-icon"><span class="tsd-signature-symbol">(</span>attachmentString<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">string</span>, error<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">string</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">void</span></li>
+											</ul>
+											<ul class="tsd-descriptions">
+												<li class="tsd-description">
+													<h4 class="tsd-parameters-title">Parameters</h4>
+													<ul class="tsd-parameters">
+														<li>
+															<h5>attachmentString: <span class="tsd-signature-type">string</span></h5>
 														</li>
 														<li>
 															<h5>error: <span class="tsd-signature-type">string</span></h5>
@@ -1540,13 +1616,7 @@
 									<div class="tsd-comment tsd-typography">
 										<p>with below parameters:</p>
 										<ul>
-											<li><ul>
-													<li><ul>
-															<li>@param {Json} returns the UserDetails in Json structure</li>
-														</ul>
-													</li>
-												</ul>
-											</li>
+											<li>@param {Json} returns the UserDetails in Json structure</li>
 										</ul>
 									</div>
 									<ul class="tsd-parameters">
@@ -1587,9 +1657,17 @@
 							<aside class="tsd-sources">
 							</aside>
 							<div class="tsd-comment tsd-typography">
-								<div class="lead">
-									<p>Gets all the customization settings for a package (Used in case of Type-4 packages and their base).</p>
-								</div>
+								<dl class="tsd-comment-tags">
+									<dt>example</dt>
+									<dd><pre><code class="language-typescript">KASClient.App.getPackageCustomSettingsAsync(<span class="hljs-function"><span class="hljs-keyword">function</span> (<span class="hljs-params">settings, error</span>) </span>{
+      <span class="hljs-keyword">if</span> (error != <span class="hljs-literal">null</span>) {
+          <span class="hljs-keyword">return</span>;
+      }
+     <span class="hljs-comment">//settings contains the settings json defined at the package level</span>
+});</code></pre>
+										<p>Gets all the customization settings for a package (Used in case of Type-4 packages and their base).</p>
+									</dd>
+								</dl>
 							</div>
 							<h4 class="tsd-parameters-title">Parameters</h4>
 							<ul class="tsd-parameters">
@@ -1598,20 +1676,8 @@
 									<div class="tsd-comment tsd-typography">
 										<p>with below parameters:</p>
 										<ul>
-											<li><ul>
-													<li><ul>
-															<li>@param {JSON} settings can be null in case of error</li>
-														</ul>
-													</li>
-												</ul>
-											</li>
-											<li><ul>
-													<li><ul>
-															<li>@param {string} error message in case of error, null otherwise</li>
-														</ul>
-													</li>
-												</ul>
-											</li>
+											<li>@param {JSON} settings can be null in case of error</li>
+											<li>@param {string} error message in case of error, null otherwise</li>
 										</ul>
 									</div>
 									<ul class="tsd-parameters">
@@ -1663,20 +1729,8 @@
 									<div class="tsd-comment tsd-typography">
 										<p>with below parameters:</p>
 										<ul>
-											<li><ul>
-													<li><ul>
-															<li>@param {JSON} properties can be null in case of error</li>
-														</ul>
-													</li>
-												</ul>
-											</li>
-											<li><ul>
-													<li><ul>
-															<li>@param {string} error message in case of error, null otherwise</li>
-														</ul>
-													</li>
-												</ul>
-											</li>
+											<li>@param {JSON} properties can be null in case of error</li>
+											<li>@param {string} error message in case of error, null otherwise</li>
 										</ul>
 									</div>
 									<ul class="tsd-parameters">
@@ -1744,9 +1798,20 @@
 							<aside class="tsd-sources">
 							</aside>
 							<div class="tsd-comment tsd-typography">
-								<div class="lead">
-									<p>Gets users&#39; details (name, pic, phone number, etc.) against their ids</p>
-								</div>
+								<dl class="tsd-comment-tags">
+									<dt>example</dt>
+									<dd><pre><code class="language-typescript"><span class="hljs-keyword">var</span> userIds = [<span class="hljs-string">"&lt;uid1&gt;"</span>, <span class="hljs-string">"&lt;uid2&gt;"</span>,...];
+KASClient.App.getUsersDetailsAsync(userIds, <span class="hljs-function"><span class="hljs-keyword">function</span> (<span class="hljs-params">users, error</span>) </span>{
+      <span class="hljs-keyword">if</span> (error != <span class="hljs-literal">null</span>) {
+          <span class="hljs-keyword">return</span>;
+      }
+      <span class="hljs-keyword">var</span> userInfo1 = users[&lt;uid1&gt;];
+      <span class="hljs-keyword">var</span> userInfo2 = users[&lt;uid2&gt;];
+      ...
+  });</code></pre>
+										<p>Gets users&#39; details (name, pic, phone number, etc.) against their ids</p>
+									</dd>
+								</dl>
 							</div>
 							<h4 class="tsd-parameters-title">Parameters</h4>
 							<ul class="tsd-parameters">
@@ -1761,20 +1826,8 @@
 									<div class="tsd-comment tsd-typography">
 										<p>with below parameters:</p>
 										<ul>
-											<li><ul>
-													<li><ul>
-															<li>@param {Dictionary&lt;UserId: string, UserInfo: KASUser&gt;} userIdToInfoMap (users&#39; details against their ids) can be null in case of error</li>
-														</ul>
-													</li>
-												</ul>
-											</li>
-											<li><ul>
-													<li><ul>
-															<li>@param {string} error message in case of error, null otherwise</li>
-														</ul>
-													</li>
-												</ul>
-											</li>
+											<li>@param {Dictionary&lt;UserId: string, UserInfo: KASUser&gt;} userIdToInfoMap (users&#39; details against their ids) can be null in case of error</li>
+											<li>@param {string} error message in case of error, null otherwise</li>
 										</ul>
 									</div>
 									<ul class="tsd-parameters">
@@ -1924,9 +1977,25 @@
 							<aside class="tsd-sources">
 							</aside>
 							<div class="tsd-comment tsd-typography">
-								<div class="lead">
-									<p>Download the attachment specified</p>
-								</div>
+								<dl class="tsd-comment-tags">
+									<dt>example</dt>
+									<dd><pre><code class="language-typescript"><span class="hljs-keyword">var</span> attachmentJson = {
+  ty: <span class="hljs-number">3</span>,
+  afn: <span class="hljs-string">"131490_Desert (1) (4).pdf"</span>,
+  lpu: <span class="hljs-string">""</span>,
+  spu: <span class="hljs-string">'&lt;server path&gt;'</span>,
+  asb: <span class="hljs-number">846941</span>,
+  id:<span class="hljs-string">''</span>
+};
+<span class="hljs-keyword">var</span> attachment = KASClient.KASAttachment.fromJSON(attachmentJson);
+KASClient.App.isAttachmentDownloadingAsync(attachment, <span class="hljs-function"><span class="hljs-keyword">function</span>(<span class="hljs-params">isAttachmentDownloadingOrDownLoaded, error</span>)</span>{
+     <span class="hljs-keyword">if</span> (!error) {
+        <span class="hljs-built_in">console</span>.log(isAttachmentDownloadingOrDownLoaded); <span class="hljs-comment">//boolean</span>
+     }
+});</code></pre>
+										<p>Download the attachment specified</p>
+									</dd>
+								</dl>
 							</div>
 							<h4 class="tsd-parameters-title">Parameters</h4>
 							<ul class="tsd-parameters">
@@ -1996,20 +2065,8 @@
 									<div class="tsd-comment tsd-typography">
 										<p>with below parameters:</p>
 										<ul>
-											<li><ul>
-													<li><ul>
-															<li>@param {boolean} isSuccessful true if finger printing is possible</li>
-														</ul>
-													</li>
-												</ul>
-											</li>
-											<li><ul>
-													<li><ul>
-															<li>@param {string} reasonCode reason code why finger print is not possible</li>
-														</ul>
-													</li>
-												</ul>
-											</li>
+											<li>@param {boolean} isSuccessful true if finger printing is possible</li>
+											<li>@param {string} reasonCode reason code why finger print is not possible</li>
 										</ul>
 									</div>
 									<ul class="tsd-parameters">
@@ -2061,13 +2118,7 @@
 									<div class="tsd-comment tsd-typography">
 										<p>with below parameters:</p>
 										<ul>
-											<li><ul>
-													<li><ul>
-															<li>@param {boolean} subscribed true if subscribed, false otherwise</li>
-														</ul>
-													</li>
-												</ul>
-											</li>
+											<li>@param {boolean} subscribed true if subscribed, false otherwise</li>
 										</ul>
 									</div>
 									<ul class="tsd-parameters">
@@ -2116,13 +2167,7 @@
 									<div class="tsd-comment tsd-typography">
 										<p>with below parameters:</p>
 										<ul>
-											<li><ul>
-													<li><ul>
-															<li>@param {boolean} talkBackEnabled true if talkback is enabled</li>
-														</ul>
-													</li>
-												</ul>
-											</li>
+											<li>@param {boolean} talkBackEnabled true if talkback is enabled</li>
 										</ul>
 									</div>
 									<ul class="tsd-parameters">
@@ -2216,9 +2261,26 @@
 							<aside class="tsd-sources">
 							</aside>
 							<div class="tsd-comment tsd-typography">
-								<div class="lead">
-									<p>Open attachment in Immersive view.</p>
-								</div>
+								<dl class="tsd-comment-tags">
+									<dt>example</dt>
+									<dd><pre><code class="language-typescript">Attachment should be available locally - so download it before opening - <span class="hljs-keyword">if</span> already downloaded simply call the API
+<span class="hljs-keyword">var</span> attachmentJson = {
+  ty: <span class="hljs-number">3</span>,
+  afn: <span class="hljs-string">"131490_Desert (1) (4).pdf"</span>,
+  lpu: <span class="hljs-string">""</span>,
+  spu: <span class="hljs-string">'&lt;server path&gt;'</span>,
+  asb: <span class="hljs-number">846941</span>,
+  id:<span class="hljs-string">''</span>
+};
+<span class="hljs-keyword">var</span> attachment = KASClient.KASAttachment.fromJSON(attachmentJson);
+KASClient.App.downloadAttachmentAsync(attachment, <span class="hljs-function"><span class="hljs-keyword">function</span>(<span class="hljs-params">downloadedAttachment, error</span>)</span>{
+     <span class="hljs-keyword">if</span> (!error) {
+        KASClient.App.openAttachmentImmersiveView(downloadedAttachment);
+     }
+});</code></pre>
+										<p>Open attachment in Immersive view.</p>
+									</dd>
+								</dl>
 							</div>
 							<h4 class="tsd-parameters-title">Parameters</h4>
 							<ul class="tsd-parameters">
@@ -2244,8 +2306,26 @@
 							</aside>
 							<div class="tsd-comment tsd-typography">
 								<div class="lead">
-									<p>Open attachment in Immersive view.</p>
+									<ul>
+										<li>@example</li>
+									</ul>
 								</div>
+								<pre><code class="language-typescript">Attachment should be available locally - so download it before opening - <span class="hljs-keyword">if</span> already downloaded simply call the API
+<span class="hljs-keyword">var</span> attachmentJson = {
+  ty: <span class="hljs-number">3</span>,
+  afn: <span class="hljs-string">"131490_Desert (1) (4).pdf"</span>,
+  lpu: <span class="hljs-string">""</span>,
+  spu: <span class="hljs-string">'&lt;server path&gt;'</span>,
+  asb: <span class="hljs-number">846941</span>,
+  id:<span class="hljs-string">''</span>
+};
+<span class="hljs-keyword">var</span> attachment = KASClient.KASAttachment.fromJSON(attachmentJson);
+KASClient.App.downloadAttachmentAsync(attachment, <span class="hljs-function"><span class="hljs-keyword">function</span>(<span class="hljs-params">downloadedAttachment, error</span>)</span>{
+     <span class="hljs-keyword">if</span> (!error) {
+        KASClient.App.openImmersiveViewForAttachmentList([downloadedAttachment], <span class="hljs-number">0</span>);
+     }
+});</code></pre>
+								<p>Open attachment in Immersive view.</p>
 							</div>
 							<h4 class="tsd-parameters-title">Parameters</h4>
 							<ul class="tsd-parameters">
@@ -2298,10 +2378,17 @@
 							<aside class="tsd-sources">
 							</aside>
 							<div class="tsd-comment tsd-typography">
-								<div class="lead">
-									<p>If authentication type is allowed, this API performs the authentication and returns success/false status
-									else it returns an error string with reason why authentication is not possible.</p>
-								</div>
+								<dl class="tsd-comment-tags">
+									<dt>example</dt>
+									<dd><pre><code class="language-typescript">KASClient.App.performAuthenticationAsync(KASAuthenticationType.Password, <span class="hljs-function"><span class="hljs-keyword">function</span> (<span class="hljs-params">isSuccessful, reasonCode</span>) </span>{
+      <span class="hljs-keyword">if</span> (!isSuccessful) {
+          <span class="hljs-built_in">console</span>.log(resonCode);
+      }
+});</code></pre>
+										<p>If authentication type is allowed, this API performs the authentication and returns success/false status
+										else it returns an error string with reason why authentication is not possible.</p>
+									</dd>
+								</dl>
 							</div>
 							<h4 class="tsd-parameters-title">Parameters</h4>
 							<ul class="tsd-parameters">
@@ -2316,20 +2403,8 @@
 									<div class="tsd-comment tsd-typography">
 										<p>with below parameters:</p>
 										<ul>
-											<li><ul>
-													<li><ul>
-															<li>@param {boolean} isSuccessful true if the form is not yet expired</li>
-														</ul>
-													</li>
-												</ul>
-											</li>
-											<li><ul>
-													<li><ul>
-															<li>@param {string} reasonCode reason code in case of error, null otherwise</li>
-														</ul>
-													</li>
-												</ul>
-											</li>
+											<li>@param {boolean} isSuccessful true if the form is not yet expired</li>
+											<li>@param {string} reasonCode reason code in case of error, null otherwise</li>
 										</ul>
 									</div>
 									<ul class="tsd-parameters">
@@ -2370,9 +2445,18 @@
 							<aside class="tsd-sources">
 							</aside>
 							<div class="tsd-comment tsd-typography">
-								<div class="lead">
-									<p>performs an http request and returns the response as specified below:</p>
-								</div>
+								<dl class="tsd-comment-tags">
+									<dt>example</dt>
+									<dd><pre><code class="language-typescript"><span class="hljs-keyword">var</span> url = <span class="hljs-string">"&lt;url&gt;"</span>;
+<span class="hljs-keyword">var</span> parametersJson = <span class="hljs-built_in">JSON</span>.stringify({ <span class="hljs-string">"method"</span> : <span class="hljs-string">"GET"</span> });
+KASClient.App.performHTTPRequest(url, parametersJson, <span class="hljs-function"><span class="hljs-keyword">function</span> (<span class="hljs-params">response, error</span>) </span>{
+      <span class="hljs-keyword">if</span> (!error) {
+          <span class="hljs-comment">//use the response</span>
+      }
+});</code></pre>
+										<p>performs an http request and returns the response as specified below:</p>
+									</dd>
+								</dl>
 							</div>
 							<h4 class="tsd-parameters-title">Parameters</h4>
 							<ul class="tsd-parameters">
@@ -2404,27 +2488,15 @@
 									<div class="tsd-comment tsd-typography">
 										<p>callback with below parameters:</p>
 										<ul>
-											<li><ul>
-													<li><ul>
-															<li>@param {string} response response body returned<pre><code>                     This could have two possible config:
-                    <span class="hljs-keyword">If</span> request was a success it returns jsonstring with following keys:
-                     a.) <span class="hljs-string">"HttpResponseCode"</span> : The response code of request.
-                    b.) <span class="hljs-string">"HttpResponseHeader"</span>: The response HTTP headers
-                    c.) <span class="hljs-string">"HttpResponseBody"</span>: The response body returned <span class="hljs-keyword">for</span> request.
-                    <span class="hljs-keyword">If</span> there was a<span class="hljs-built_in"> Network </span><span class="hljs-builtin-name">error</span> then it returns:
-                    a.) <span class="hljs-string">"HttpErrorCode"</span>: The <span class="hljs-builtin-name">error</span> code
-                    b.) <span class="hljs-string">"HttpErrorMessage"</span>: The <span class="hljs-builtin-name">error</span> message eg. Malformed URL, Cannot connect <span class="hljs-keyword">to</span> host etc.</code></pre></li>
-														</ul>
-													</li>
-												</ul>
-											</li>
-											<li><ul>
-													<li><ul>
-															<li>@param {string} error error if any : This includes the standard error code defined in KASClient documentation.</li>
-														</ul>
-													</li>
-												</ul>
-											</li>
+											<li>@param {string} response response body returned<pre><code>                         This could have two possible config:
+                        <span class="hljs-keyword">If</span> request was a success it returns jsonstring with following keys:
+                         a.) <span class="hljs-string">"HttpResponseCode"</span> : The response code of request.
+                        b.) <span class="hljs-string">"HttpResponseHeader"</span>: The response HTTP headers
+                        c.) <span class="hljs-string">"HttpResponseBody"</span>: The response body returned <span class="hljs-keyword">for</span> request.
+                        <span class="hljs-keyword">If</span> there was a<span class="hljs-built_in"> Network </span><span class="hljs-builtin-name">error</span> then it returns:
+                        a.) <span class="hljs-string">"HttpErrorCode"</span>: The <span class="hljs-builtin-name">error</span> code
+                        b.) <span class="hljs-string">"HttpErrorMessage"</span>: The <span class="hljs-builtin-name">error</span> message eg. Malformed URL, Cannot connect <span class="hljs-keyword">to</span> host etc.</code></pre></li>
+											<li>@param {string} error error if any : This includes the standard error code defined in KASClient documentation.</li>
 										</ul>
 									</div>
 									<ul class="tsd-parameters">
@@ -2476,20 +2548,8 @@
 									<div class="tsd-comment tsd-typography">
 										<p>with below parameters:</p>
 										<ul>
-											<li><ul>
-													<li><ul>
-															<li>@param {boolean} text converted text for the voice input given by user</li>
-														</ul>
-													</li>
-												</ul>
-											</li>
-											<li><ul>
-													<li><ul>
-															<li>@param {string} error any error that happens in native during voice to speech conversion</li>
-														</ul>
-													</li>
-												</ul>
-											</li>
+											<li>@param {boolean} text converted text for the voice input given by user</li>
+											<li>@param {string} error any error that happens in native during voice to speech conversion</li>
 										</ul>
 									</div>
 									<ul class="tsd-parameters">
@@ -2719,9 +2779,16 @@
 							<aside class="tsd-sources">
 							</aside>
 							<div class="tsd-comment tsd-typography">
-								<div class="lead">
-									<p>Sets few properties when using native toolbar</p>
-								</div>
+								<dl class="tsd-comment-tags">
+									<dt>example</dt>
+									<dd><pre><code class="language-typescript"><span class="hljs-keyword">var</span> nativeToolbarProps = <span class="hljs-keyword">new</span> KASClient.UI.KASNativeToolbarProperties();
+nativeToolbarProps.icon = <span class="hljs-string">"&lt;image&gt;"</span>
+nativeToolbarProps.title = <span class="hljs-string">"&lt;title&gt;"</span>;
+nativeToolbarProps.subtitle = <span class="hljs-string">"&lt;subtitle&gt;"</span>;
+KASClient.App.setNativeToolbarProperties(nativeToolbarProps);</code></pre>
+										<p>Sets few properties when using native toolbar</p>
+									</dd>
+								</dl>
 							</div>
 							<h4 class="tsd-parameters-title">Parameters</h4>
 							<ul class="tsd-parameters">
@@ -2859,20 +2926,8 @@ KASClient.App.showAttachmentPickerAsync(attachmentsToShow, <span class="hljs-lit
 									<div class="tsd-comment tsd-typography">
 										<p>with below parameters:</p>
 										<ul>
-											<li><ul>
-													<li><ul>
-															<li>@param {string} barcodeInfo can be null in case of error</li>
-														</ul>
-													</li>
-												</ul>
-											</li>
-											<li><ul>
-													<li><ul>
-															<li>@param {string} error message in case of error, null otherwise</li>
-														</ul>
-													</li>
-												</ul>
-											</li>
+											<li>@param {string} barcodeInfo can be null in case of error</li>
+											<li>@param {string} error message in case of error, null otherwise</li>
 										</ul>
 									</div>
 									<ul class="tsd-parameters">
@@ -2913,9 +2968,18 @@ KASClient.App.showAttachmentPickerAsync(attachmentsToShow, <span class="hljs-lit
 							<aside class="tsd-sources">
 							</aside>
 							<div class="tsd-comment tsd-typography">
-								<div class="lead">
-									<p>Shows a native contact picker, and returns an array of all the selected users&#39; details</p>
-								</div>
+								<dl class="tsd-comment-tags">
+									<dt>example</dt>
+									<dd><pre><code class="language-typescript"><span class="hljs-keyword">var</span> alreadySelectedUserIds = [];
+KASClient.App.showContactPickerAsync(<span class="hljs-string">"&lt;picker title&gt;"</span>, alreadySelectedUserIds, [], <span class="hljs-literal">true</span>, <span class="hljs-function"><span class="hljs-keyword">function</span> (<span class="hljs-params">selectedUsers, error</span>) </span>{
+    <span class="hljs-keyword">if</span> (error == <span class="hljs-literal">null</span> &amp;&amp; selectedUsers != <span class="hljs-literal">null</span> &amp;&amp; selectedUsers.length &gt; <span class="hljs-number">0</span>) {
+        <span class="hljs-keyword">var</span> selectedUser = selectedUsers[<span class="hljs-number">0</span>]; <span class="hljs-comment">//KASUser</span>
+        <span class="hljs-built_in">console</span>.log(selectedUser.id);
+    }
+});</code></pre>
+										<p>Shows a native contact picker, and returns an array of all the selected users&#39; details</p>
+									</dd>
+								</dl>
 							</div>
 							<h4 class="tsd-parameters-title">Parameters</h4>
 							<ul class="tsd-parameters">
@@ -2948,20 +3012,8 @@ KASClient.App.showAttachmentPickerAsync(attachmentsToShow, <span class="hljs-lit
 									<div class="tsd-comment tsd-typography">
 										<p>with below parameters:</p>
 										<ul>
-											<li><ul>
-													<li><ul>
-															<li>@param {KASUser[]} selectedUsers (array of user details) can be null in case of error</li>
-														</ul>
-													</li>
-												</ul>
-											</li>
-											<li><ul>
-													<li><ul>
-															<li>@param {string} error message in case of error, null otherwise</li>
-														</ul>
-													</li>
-												</ul>
-											</li>
+											<li>@param {KASUser[]} selectedUsers (array of user details) can be null in case of error</li>
+											<li>@param {string} error message in case of error, null otherwise</li>
 										</ul>
 									</div>
 									<ul class="tsd-parameters">
@@ -3019,20 +3071,8 @@ KASClient.App.showAttachmentPickerAsync(attachmentsToShow, <span class="hljs-lit
 									<div class="tsd-comment tsd-typography">
 										<p>with below parameters:</p>
 										<ul>
-											<li><ul>
-													<li><ul>
-															<li>@param {number} durationInMinutes selected duration in minutes</li>
-														</ul>
-													</li>
-												</ul>
-											</li>
-											<li><ul>
-													<li><ul>
-															<li>@param {string} error message in case of error, null otherwise</li>
-														</ul>
-													</li>
-												</ul>
-											</li>
+											<li>@param {number} durationInMinutes selected duration in minutes</li>
+											<li>@param {string} error message in case of error, null otherwise</li>
 										</ul>
 									</div>
 									<ul class="tsd-parameters">
@@ -3073,9 +3113,13 @@ KASClient.App.showAttachmentPickerAsync(attachmentsToShow, <span class="hljs-lit
 							<aside class="tsd-sources">
 							</aside>
 							<div class="tsd-comment tsd-typography">
-								<div class="lead">
-									<p>Shows Image in Immersive view.</p>
-								</div>
+								<dl class="tsd-comment-tags">
+									<dt>example</dt>
+									<dd><pre><code class="language-typescript"><span class="hljs-keyword">var</span> urlArray = [<span class="hljs-string">"path1"</span>, <span class="hljs-string">"path2"</span>];
+KASClient.App.showImageImmersiveView(urlArray);</code></pre>
+										<p>Shows Image in Immersive view.</p>
+									</dd>
+								</dl>
 							</div>
 							<h4 class="tsd-parameters-title">Parameters</h4>
 							<ul class="tsd-parameters">
@@ -3104,9 +3148,17 @@ KASClient.App.showAttachmentPickerAsync(attachmentsToShow, <span class="hljs-lit
 							<aside class="tsd-sources">
 							</aside>
 							<div class="tsd-comment tsd-typography">
-								<div class="lead">
-									<p>Shows a native image picker, and returns the selected image path</p>
-								</div>
+								<dl class="tsd-comment-tags">
+									<dt>example</dt>
+									<dd><pre><code class="language-typescript">KASClient.App.showImagePickerAsync(<span class="hljs-function"><span class="hljs-keyword">function</span> (<span class="hljs-params">selectedImagePath, error</span>) </span>{
+      <span class="hljs-keyword">if</span> (error != <span class="hljs-literal">null</span>) {
+          <span class="hljs-keyword">return</span>;
+      }
+      <span class="hljs-comment">//use the selectedImagePath as path of the image chosen</span>
+});</code></pre>
+										<p>Shows a native image picker, and returns the selected image path</p>
+									</dd>
+								</dl>
 							</div>
 							<h4 class="tsd-parameters-title">Parameters</h4>
 							<ul class="tsd-parameters">
@@ -3115,20 +3167,8 @@ KASClient.App.showAttachmentPickerAsync(attachmentsToShow, <span class="hljs-lit
 									<div class="tsd-comment tsd-typography">
 										<p>with below parameters:</p>
 										<ul>
-											<li><ul>
-													<li><ul>
-															<li>@param {string} selectedImagePath can be null in case of error</li>
-														</ul>
-													</li>
-												</ul>
-											</li>
-											<li><ul>
-													<li><ul>
-															<li>@param {string} error message in case of error, null otherwise</li>
-														</ul>
-													</li>
-												</ul>
-											</li>
+											<li>@param {string} selectedImagePath can be null in case of error</li>
+											<li>@param {string} error message in case of error, null otherwise</li>
 										</ul>
 									</div>
 									<ul class="tsd-parameters">
@@ -3234,20 +3274,8 @@ KASClient.App.showAttachmentPickerAsync(attachmentsToShow, <span class="hljs-lit
 									<div class="tsd-comment tsd-typography">
 										<p>with below parameters:</p>
 										<ul>
-											<li><ul>
-													<li><ul>
-															<li>@param {KASLocation} selectedLocation can be null in case of error</li>
-														</ul>
-													</li>
-												</ul>
-											</li>
-											<li><ul>
-													<li><ul>
-															<li>@param {string} error message in case of error, null otherwise</li>
-														</ul>
-													</li>
-												</ul>
-											</li>
+											<li>@param {KASLocation} selectedLocation can be null in case of error</li>
+											<li>@param {string} error message in case of error, null otherwise</li>
 										</ul>
 									</div>
 									<ul class="tsd-parameters">
@@ -3326,20 +3354,8 @@ KASClient.App.showAttachmentPickerAsync(attachmentsToShow, <span class="hljs-lit
 									<div class="tsd-comment tsd-typography">
 										<p>with below parameters:</p>
 										<ul>
-											<li><ul>
-													<li><ul>
-															<li>@param {string} qrCodeInfo can be null in case of error</li>
-														</ul>
-													</li>
-												</ul>
-											</li>
-											<li><ul>
-													<li><ul>
-															<li>@param {string} error message in case of error, null otherwise</li>
-														</ul>
-													</li>
-												</ul>
-											</li>
+											<li>@param {string} qrCodeInfo can be null in case of error</li>
+											<li>@param {string} error message in case of error, null otherwise</li>
 										</ul>
 									</div>
 									<ul class="tsd-parameters">
@@ -3544,6 +3560,9 @@ KASClient.App.showAttachmentPickerAsync(attachmentsToShow, <span class="hljs-lit
     <a href="kasclient.app.html#getclientdetailsasync" class="tsd-kind-icon">get<wbr>Client<wbr>Details<wbr>Async</a>
 </li>
                         <li class=" tsd-kind-function tsd-parent-kind-module">
+    <a href="kasclient.app.html#getconversationdetailsasync" class="tsd-kind-icon">get<wbr>Conversation<wbr>Details<wbr>Async</a>
+</li>
+                        <li class=" tsd-kind-function tsd-parent-kind-module">
     <a href="kasclient.app.html#getconversationnameasync" class="tsd-kind-icon">get<wbr>Conversation<wbr>Name<wbr>Async</a>
 </li>
                         <li class=" tsd-kind-function tsd-parent-kind-module">
@@ -3584,6 +3603,12 @@ KASClient.App.showAttachmentPickerAsync(attachmentsToShow, <span class="hljs-lit
 </li>
                         <li class=" tsd-kind-function tsd-parent-kind-module">
     <a href="kasclient.app.html#getlocalizedstringsasync" class="tsd-kind-icon">get<wbr>Localized<wbr>Strings<wbr>Async</a>
+</li>
+                        <li class=" tsd-kind-function tsd-parent-kind-module">
+    <a href="kasclient.app.html#getlocationaddressasync" class="tsd-kind-icon">get<wbr>Location<wbr>Address<wbr>Async</a>
+</li>
+                        <li class=" tsd-kind-function tsd-parent-kind-module">
+    <a href="kasclient.app.html#getmapimageasbase64async" class="tsd-kind-icon">get<wbr>Map<wbr>Image<wbr>AsBase64<wbr>Async</a>
 </li>
                         <li class=" tsd-kind-function tsd-parent-kind-module">
     <a href="kasclient.app.html#geto365userdetailsasync" class="tsd-kind-icon">get<wbr>O365<wbr>User<wbr>Details<wbr>Async</a>
@@ -3715,7 +3740,7 @@ KASClient.App.showAttachmentPickerAsync(attachmentsToShow, <span class="hljs-lit
 </div>
 
 
-<footer class="with-border-bottom">
+<footer>
     <div class="container">
         <h2>Legend</h2>
         <div class="tsd-legend-group">
@@ -3775,9 +3800,6 @@ KASClient.App.showAttachmentPickerAsync(attachmentsToShow, <span class="hljs-lit
     </div>
 </footer>
 
-    <div class="container tsd-generator">
-        <p>Generated using <a href="http://typedoc.org/" target="_blank">TypeDoc</a></p>
-    </div>
 
 <div class="overlay"></div>
 <script src="../assets/js/main.js"></script>
