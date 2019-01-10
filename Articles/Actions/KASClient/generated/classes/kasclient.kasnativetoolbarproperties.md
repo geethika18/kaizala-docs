@@ -1,4 +1,4 @@
-[type-doc](../README.md) > [KASClient](../modules/kasclient.md) > [KASNativeToolbarProperties](../classes/kasclient.kasnativetoolbarproperties.md)
+[](../README.md) > [KASClient](../modules/kasclient.md) > [KASNativeToolbarProperties](../classes/kasclient.kasnativetoolbarproperties.md)
 
 # Class: KASNativeToolbarProperties
 
@@ -17,9 +17,13 @@
 * [urlAction](kasclient.kasnativetoolbarproperties.md#urlaction)
 * [urlType](kasclient.kasnativetoolbarproperties.md#urltype)
 
+
 ### Methods
 
 * [toJSON](kasclient.kasnativetoolbarproperties.md#tojson)
+
+
+
 
 ---
 
@@ -31,54 +35,66 @@
 
 **● fixedUrl**: *`string`* =  null
 
-*Defined in model/KASNativeToolbarProperties.ts:17*
-
 ___
+
+
+
+
 <a id="icon"></a>
 
 ###  icon
 
 **● icon**: *`string`* =  null
 
-*Defined in model/KASNativeToolbarProperties.ts:14*
-
 ___
+
+
+
+
 <a id="subtitle"></a>
 
 ###  subtitle
 
 **● subtitle**: *`string`* =  null
 
-*Defined in model/KASNativeToolbarProperties.ts:16*
-
 ___
+
+
+
+
 <a id="title"></a>
 
 ###  title
 
 **● title**: *`string`* =  null
 
-*Defined in model/KASNativeToolbarProperties.ts:15*
-
 ___
+
+
+
+
 <a id="urlaction"></a>
 
 ###  urlAction
 
 **● urlAction**: *[UrlAction](../enums/kasclient.urlaction.md)* =  UrlAction.None
 
-*Defined in model/KASNativeToolbarProperties.ts:19*
-
 ___
+
+
+
+
 <a id="urltype"></a>
 
 ###  urlType
 
 **● urlType**: *[UrlType](../enums/kasclient.urltype.md)* =  UrlType.Current
 
-*Defined in model/KASNativeToolbarProperties.ts:18*
-
 ___
+
+
+
+
 
 ## Methods
 
@@ -88,9 +104,11 @@ ___
 
 ▸ **toJSON**(): `JSON`
 
-*Defined in model/KASNativeToolbarProperties.ts:21*
-
 **Returns:** `JSON`
 
 ___
+
+
+
+
 

@@ -1,4 +1,4 @@
-[type-doc](../README.md) > [KASClient](../modules/kasclient.md) > [KASError](../classes/kasclient.kaserror.md)
+[](../README.md) > [KASClient](../modules/kasclient.md) > [KASError](../classes/kasclient.kaserror.md)
 
 # Class: KASError
 
@@ -13,9 +13,13 @@
 * [description](kasclient.kaserror.md#description)
 * [errorCode](kasclient.kaserror.md#errorcode)
 
+
 ### Methods
 
 * [fromString](kasclient.kaserror.md#fromstring)
+
+
+
 
 ---
 
@@ -27,18 +31,22 @@
 
 **● description**: *`String`* = ""
 
-*Defined in KASError.ts:5*
-
 ___
+
+
+
+
 <a id="errorcode"></a>
 
 ###  errorCode
 
 **● errorCode**: *[KASErrorCode](../enums/kasclient.kaserrorcode.md)* =  KASErrorCode.NONE
 
-*Defined in KASError.ts:4*
-
 ___
+
+
+
+
 
 ## Methods
 
@@ -47,8 +55,6 @@ ___
 ### `<Static>` fromString
 
 ▸ **fromString**(stringifyError: *`string`*): [KASError](kasclient.kaserror.md)
-
-*Defined in KASError.ts:7*
 
 **Parameters:**
 
@@ -59,4 +65,8 @@ ___
 **Returns:** [KASError](kasclient.kaserror.md)
 
 ___
+
+
+
+
 

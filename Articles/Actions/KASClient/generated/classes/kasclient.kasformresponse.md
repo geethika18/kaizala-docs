@@ -1,4 +1,4 @@
-[type-doc](../README.md) > [KASClient](../modules/kasclient.md) > [KASFormResponse](../classes/kasclient.kasformresponse.md)
+[](../README.md) > [KASClient](../modules/kasclient.md) > [KASFormResponse](../classes/kasclient.kasformresponse.md)
 
 # Class: KASFormResponse
 
@@ -20,9 +20,13 @@
 * [sendTime](kasclient.kasformresponse.md#sendtime)
 * [serverToLocalAssetUrlMap](kasclient.kasformresponse.md#servertolocalasseturlmap)
 
+
 ### Methods
 
 * [fromJSON](kasclient.kasformresponse.md#fromjson)
+
+
+
 
 ---
 
@@ -34,85 +38,137 @@
 
 **● groupId**: *`string`* = ""
 
-*Defined in model/KASFormResponse.ts:21*
+
+Group id
+
 
 ___
+
+
+
+
 <a id="groupname"></a>
 
 ###  groupName
 
 **● groupName**: *`string`* = ""
 
-*Defined in model/KASFormResponse.ts:24*
+
+Group Name
+
 
 ___
+
+
+
+
 <a id="id"></a>
 
 ###  id
 
 **● id**: *`string`* = ""
 
-*Defined in model/KASFormResponse.ts:4*
+
+A unique response id, required in case of updating an existing response
+
 
 ___
+
+
+
+
 <a id="questiontoanswermap"></a>
 
 ###  questionToAnswerMap
 
 **● questionToAnswerMap**: *`object`*
 
-*Defined in model/KASFormResponse.ts:18*
+
+A map of question id to answer Dictionary<QuestionId: number, Answer: string>
 
 #### Type declaration
 
 ___
+
+
+
+
 <a id="responderid"></a>
 
 ###  responderId
 
 **● responderId**: *`string`* = ""
 
-*Defined in model/KASFormResponse.ts:27*
+
+Responder id
+
 
 ___
+
+
+
+
 <a id="respondername"></a>
 
 ###  responderName
 
 **● responderName**: *`string`* = ""
 
-*Defined in model/KASFormResponse.ts:30*
+
+Responder name
+
 
 ___
+
+
+
+
 <a id="sendstatus"></a>
 
 ###  sendStatus
 
 **● sendStatus**: *[KASFormMessageSendStatus](../enums/kasclient.kasformmessagesendstatus.md)* =  KASFormMessageSendStatus.Unknown
 
-*Defined in model/KASFormResponse.ts:7*
+
+Response message send status
+
 
 ___
+
+
+
+
 <a id="sendtime"></a>
 
 ###  sendTime
 
 **● sendTime**: *`number`* = 0
 
-*Defined in model/KASFormResponse.ts:10*
+
+Response send time
+
 
 ___
+
+
+
+
 <a id="servertolocalasseturlmap"></a>
 
 ###  serverToLocalAssetUrlMap
 
 **● serverToLocalAssetUrlMap**: *`object`*
 
-*Defined in model/KASFormResponse.ts:14*
+
+A map for serverUrl against localUrl of all the image attachments to a response Dictionary<ServerUrl: string, LocalUrl: string>
 
 #### Type declaration
 
 ___
+
+
+
+
 
 ## Methods
 
@@ -121,8 +177,6 @@ ___
 ### `<Static>` fromJSON
 
 ▸ **fromJSON**(object: *`any`*): [KASFormResponse](kasclient.kasformresponse.md)
-
-*Defined in model/KASFormResponse.ts:32*
 
 **Parameters:**
 
@@ -133,4 +187,8 @@ ___
 **Returns:** [KASFormResponse](kasclient.kasformresponse.md)
 
 ___
+
+
+
+
 

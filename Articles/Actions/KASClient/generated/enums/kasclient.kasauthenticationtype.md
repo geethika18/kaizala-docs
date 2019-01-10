@@ -1,4 +1,4 @@
-[type-doc](../README.md) > [KASClient](../modules/kasclient.md) > [KASAuthenticationType](../enums/kasclient.kasauthenticationtype.md)
+[](../README.md) > [KASClient](../modules/kasclient.md) > [KASAuthenticationType](../enums/kasclient.kasauthenticationtype.md)
 
 # Enumeration: KASAuthenticationType
 
@@ -13,6 +13,9 @@
 * [Pattern](kasclient.kasauthenticationtype.md#pattern)
 * [Pin](kasclient.kasauthenticationtype.md#pin)
 
+
+
+
 ---
 
 ## Enumeration members
@@ -23,52 +26,64 @@
 
 **FaceRecognition**:  = 5
 
-*Defined in model/KASAuthenticationType.ts:14*
-
 ___
+
+
+
+
 <a id="fingerprint"></a>
 
 ###  FingerPrint
 
 **FingerPrint**:  = 4
 
-*Defined in model/KASAuthenticationType.ts:12*
-
 ___
+
+
+
+
 <a id="none"></a>
 
 ###  None
 
 **None**:  =  -1
 
-*Defined in model/KASAuthenticationType.ts:4*
-
 ___
+
+
+
+
 <a id="password"></a>
 
 ###  Password
 
 **Password**:  = 3
 
-*Defined in model/KASAuthenticationType.ts:10*
-
 ___
+
+
+
+
 <a id="pattern"></a>
 
 ###  Pattern
 
 **Pattern**:  = 1
 
-*Defined in model/KASAuthenticationType.ts:6*
-
 ___
+
+
+
+
 <a id="pin"></a>
 
 ###  Pin
 
 **Pin**:  = 2
 
-*Defined in model/KASAuthenticationType.ts:8*
-
 ___
+
+
+
+
 

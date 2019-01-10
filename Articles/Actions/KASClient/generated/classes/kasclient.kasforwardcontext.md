@@ -1,4 +1,4 @@
-[type-doc](../README.md) > [KASClient](../modules/kasclient.md) > [KASForwardContext](../classes/kasclient.kasforwardcontext.md)
+[](../README.md) > [KASClient](../modules/kasclient.md) > [KASForwardContext](../classes/kasclient.kasforwardcontext.md)
 
 # Class: KASForwardContext
 
@@ -12,9 +12,13 @@
 
 * [inForwardMode](kasclient.kasforwardcontext.md#inforwardmode)
 
+
 ### Methods
 
 * [fromJSON](kasclient.kasforwardcontext.md#fromjson)
+
+
+
 
 ---
 
@@ -26,9 +30,11 @@
 
 **● inForwardMode**: *`boolean`* = false
 
-*Defined in model/KASForwardContext.ts:3*
-
 ___
+
+
+
+
 
 ## Methods
 
@@ -37,8 +43,6 @@ ___
 ### `<Static>` fromJSON
 
 ▸ **fromJSON**(object: *`JSON`*): [KASForwardContext](kasclient.kasforwardcontext.md)
-
-*Defined in model/KASForwardContext.ts:5*
 
 **Parameters:**
 
@@ -49,4 +53,8 @@ ___
 **Returns:** [KASForwardContext](kasclient.kasforwardcontext.md)
 
 ___
+
+
+
+
 

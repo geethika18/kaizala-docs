@@ -1,4 +1,4 @@
-[type-doc](../README.md) > [KASClient](../modules/kasclient.md) > [KASQuestionType](../enums/kasclient.kasquestiontype.md)
+[](../README.md) > [KASClient](../modules/kasclient.md) > [KASQuestionType](../enums/kasclient.kasquestiontype.md)
 
 # Enumeration: KASQuestionType
 
@@ -19,6 +19,9 @@
 * [SingleSelectExternal](kasclient.kasquestiontype.md#singleselectexternal)
 * [Text](kasclient.kasquestiontype.md#text)
 
+
+
+
 ---
 
 ## Enumeration members
@@ -29,106 +32,178 @@
 
 **AttachmentList**:  = 8
 
-*Defined in model/KASQuestionType.ts:31*
+
+Attachment List type answer
+
 
 ___
+
+
+
+
 <a id="dateonly"></a>
 
 ###  DateOnly
 
 **DateOnly**:  = 10
 
-*Defined in model/KASQuestionType.ts:37*
+
+Date Type
+
 
 ___
+
+
+
+
 <a id="datetime"></a>
 
 ###  DateTime
 
 **DateTime**:  = 5
 
-*Defined in model/KASQuestionType.ts:22*
+
+Date time type answer
+
 
 ___
+
+
+
+
 <a id="image"></a>
 
 ###  Image
 
 **Image**:  = 6
 
-*Defined in model/KASQuestionType.ts:25*
+
+Answer will be an image attachment
+
 
 ___
+
+
+
+
 <a id="location"></a>
 
 ###  Location
 
 **Location**:  = 4
 
-*Defined in model/KASQuestionType.ts:19*
+
+User's current location will be attached as the answer
+
 
 ___
+
+
+
+
 <a id="multiselect"></a>
 
 ###  MultiSelect
 
 **MultiSelect**:  = 1
 
-*Defined in model/KASQuestionType.ts:10*
+
+Multiple options can be selected from the list of options
+
 
 ___
+
+
+
+
 <a id="none"></a>
 
 ###  None
 
 **None**:  =  -1
 
-*Defined in model/KASQuestionType.ts:4*
+
+Default type
+
 
 ___
+
+
+
+
 <a id="numeric"></a>
 
 ###  Numeric
 
 **Numeric**:  = 3
 
-*Defined in model/KASQuestionType.ts:16*
+
+Only numbers can be a valid answer to the question
+
 
 ___
+
+
+
+
 <a id="phonenumber"></a>
 
 ###  PhoneNumber
 
 **PhoneNumber**:  = 9
 
-*Defined in model/KASQuestionType.ts:34*
+
+Phone Number Type
+
 
 ___
+
+
+
+
 <a id="singleselect"></a>
 
 ###  SingleSelect
 
 **SingleSelect**:  = 0
 
-*Defined in model/KASQuestionType.ts:7*
+
+Only one option can be selected from the list of options
+
 
 ___
+
+
+
+
 <a id="singleselectexternal"></a>
 
 ###  SingleSelectExternal
 
 **SingleSelectExternal**:  = 7
 
-*Defined in model/KASQuestionType.ts:28*
+
+Single select type, but each question's options are dependent upon the choice of the previous one
+
 
 ___
+
+
+
+
 <a id="text"></a>
 
 ###  Text
 
 **Text**:  = 2
 
-*Defined in model/KASQuestionType.ts:13*
+
+Any text can be the answer to the question
+
 
 ___
+
+
+
+
 

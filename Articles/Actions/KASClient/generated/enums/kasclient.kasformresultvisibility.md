@@ -1,4 +1,4 @@
-[type-doc](../README.md) > [KASClient](../modules/kasclient.md) > [KASFormResultVisibility](../enums/kasclient.kasformresultvisibility.md)
+[](../README.md) > [KASClient](../modules/kasclient.md) > [KASFormResultVisibility](../enums/kasclient.kasformresultvisibility.md)
 
 # Enumeration: KASFormResultVisibility
 
@@ -11,6 +11,9 @@
 * [MembersAndSubscribers](kasclient.kasformresultvisibility.md#membersandsubscribers)
 * [Sender](kasclient.kasformresultvisibility.md#sender)
 
+
+
+
 ---
 
 ## Enumeration members
@@ -21,34 +24,58 @@
 
 **Admin**:  = 2
 
-*Defined in model/KASFormResultVisibility.ts:10*
+
+Summary is visible to all the admins of the conversation
+
 
 ___
+
+
+
+
 <a id="all"></a>
 
 ###  All
 
 **All**:  = 0
 
-*Defined in model/KASFormResultVisibility.ts:4*
+
+Form summary is visible to everyone in the conversation
+
 
 ___
+
+
+
+
 <a id="membersandsubscribers"></a>
 
 ###  MembersAndSubscribers
 
 **MembersAndSubscribers**:  = 3
 
-*Defined in model/KASFormResultVisibility.ts:13*
+
+Summary is visible to all the member and subscribers of the conversation
+
 
 ___
+
+
+
+
 <a id="sender"></a>
 
 ###  Sender
 
 **Sender**:  = 1
 
-*Defined in model/KASFormResultVisibility.ts:7*
+
+Summary is visible to only the creator of the form
+
 
 ___
+
+
+
+
 

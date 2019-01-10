@@ -1,4 +1,4 @@
-[type-doc](../README.md) > [KASClient](../modules/kasclient.md) > [KASCountryPhoneCode](../classes/kasclient.kascountryphonecode.md)
+[](../README.md) > [KASClient](../modules/kasclient.md) > [KASCountryPhoneCode](../classes/kasclient.kascountryphonecode.md)
 
 # Class: KASCountryPhoneCode
 
@@ -12,12 +12,16 @@
 
 * [countryPhoneCodeList](kasclient.kascountryphonecode.md#countryphonecodelist)
 
+
 ### Methods
 
 * [getAllCountryPhoneCodes](kasclient.kascountryphonecode.md#getallcountryphonecodes)
 * [getAllFormattedCountryPhoneCodes](kasclient.kascountryphonecode.md#getallformattedcountryphonecodes)
 * [getFormattedCountryPhoneCodeForCountry](kasclient.kascountryphonecode.md#getformattedcountryphonecodeforcountry)
 * [getFormattedString](kasclient.kascountryphonecode.md#getformattedstring)
+
+
+
 
 ---
 
@@ -1290,9 +1294,11 @@
             }
           ]
 
-*Defined in model/KASCountryPhoneCode.ts:46*
-
 ___
+
+
+
+
 
 ## Methods
 
@@ -1302,18 +1308,18 @@ ___
 
 ▸ **getAllCountryPhoneCodes**(): `number`[]
 
-*Defined in model/KASCountryPhoneCode.ts:4*
-
 **Returns:** `number`[]
 
 ___
+
+
+
+
 <a id="getallformattedcountryphonecodes"></a>
 
 ### `<Static>` getAllFormattedCountryPhoneCodes
 
 ▸ **getAllFormattedCountryPhoneCodes**(includeCountryName?: *`boolean`*): `string`[]
-
-*Defined in model/KASCountryPhoneCode.ts:14*
 
 **Parameters:**
 
@@ -1324,13 +1330,15 @@ ___
 **Returns:** `string`[]
 
 ___
+
+
+
+
 <a id="getformattedcountryphonecodeforcountry"></a>
 
 ### `<Static>` getFormattedCountryPhoneCodeForCountry
 
 ▸ **getFormattedCountryPhoneCodeForCountry**(countryPhoneCode: *`any`*, includeCountryName?: *`boolean`*): `string`
-
-*Defined in model/KASCountryPhoneCode.ts:24*
 
 **Parameters:**
 
@@ -1342,13 +1350,15 @@ ___
 **Returns:** `string`
 
 ___
+
+
+
+
 <a id="getformattedstring"></a>
 
 ### `<Static>` getFormattedString
 
 ▸ **getFormattedString**(countryPhoneCode: *`any`*, countryName: *`any`*): `any`
-
-*Defined in model/KASCountryPhoneCode.ts:35*
 
 **Parameters:**
 
@@ -1360,4 +1370,8 @@ ___
 **Returns:** `any`
 
 ___
+
+
+
+
 

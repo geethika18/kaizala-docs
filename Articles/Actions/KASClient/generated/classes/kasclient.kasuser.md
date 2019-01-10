@@ -1,4 +1,4 @@
-[type-doc](../README.md) > [KASClient](../modules/kasclient.md) > [KASUser](../classes/kasclient.kasuser.md)
+[](../README.md) > [KASClient](../modules/kasclient.md) > [KASUser](../classes/kasclient.kasuser.md)
 
 # Class: KASUser
 
@@ -18,9 +18,13 @@
 * [pictureInitials](kasclient.kasuser.md#pictureinitials)
 * [pictureUrl](kasclient.kasuser.md#pictureurl)
 
+
 ### Methods
 
 * [fromJSON](kasclient.kasuser.md#fromjson)
+
+
+
 
 ---
 
@@ -32,63 +36,101 @@
 
 **● id**: *`string`* = ""
 
-*Defined in model/KASUser.ts:4*
+
+Unique user id
+
 
 ___
+
+
+
+
 <a id="name"></a>
 
 ###  name
 
 **● name**: *`string`* = ""
 
-*Defined in model/KASUser.ts:7*
+
+Name of the user ("You" for the current user)
+
 
 ___
+
+
+
+
 <a id="originalname"></a>
 
 ###  originalName
 
 **● originalName**: *`string`* = ""
 
-*Defined in model/KASUser.ts:10*
+
+Not considering "You"
+
 
 ___
+
+
+
+
 <a id="phonenumber"></a>
 
 ###  phoneNumber
 
 **● phoneNumber**: *`string`* = ""
 
-*Defined in model/KASUser.ts:16*
+
+Phone number of the user
+
 
 ___
+
+
+
+
 <a id="picturebgcolor"></a>
 
 ###  pictureBGColor
 
 **● pictureBGColor**: *`string`* = ""
 
-*Defined in model/KASUser.ts:19*
+
+In case the PictureUrl is not there, we should use the users initials as the profile pic, below two members are for that
+
 
 ___
+
+
+
+
 <a id="pictureinitials"></a>
 
 ###  pictureInitials
 
 **● pictureInitials**: *`string`* = ""
 
-*Defined in model/KASUser.ts:20*
-
 ___
+
+
+
+
 <a id="pictureurl"></a>
 
 ###  pictureUrl
 
 **● pictureUrl**: *`string`* = ""
 
-*Defined in model/KASUser.ts:13*
+
+Profile picture url of the user
+
 
 ___
+
+
+
+
 
 ## Methods
 
@@ -97,8 +139,6 @@ ___
 ### `<Static>` fromJSON
 
 ▸ **fromJSON**(object: *`JSON`*): [KASUser](kasclient.kasuser.md)
-
-*Defined in model/KASUser.ts:22*
 
 **Parameters:**
 
@@ -109,4 +149,8 @@ ___
 **Returns:** [KASUser](kasclient.kasuser.md)
 
 ___
+
+
+
+
 

@@ -1,4 +1,4 @@
-[type-doc](../README.md) > [KASClient](../modules/kasclient.md) > [KASFormReaction](../classes/kasclient.kasformreaction.md)
+[](../README.md) > [KASClient](../modules/kasclient.md) > [KASFormReaction](../classes/kasclient.kasformreaction.md)
 
 # Class: KASFormReaction
 
@@ -18,9 +18,13 @@
 * [hideLikesDetails](kasclient.kasformreaction.md#hidelikesdetails)
 * [likesCount](kasclient.kasformreaction.md#likescount)
 
+
 ### Methods
 
 * [fromJSON](kasclient.kasformreaction.md#fromjson)
+
+
+
 
 ---
 
@@ -32,63 +36,105 @@
 
 **● commentsCount**: *`number`* = 0
 
-*Defined in model/KASFormReaction.ts:8*
+
+Number of comments received for the form
+
 
 ___
+
+
+
+
 <a id="didicomment"></a>
 
 ###  didIComment
 
 **● didIComment**: *`boolean`* = false
 
-*Defined in model/KASFormReaction.ts:14*
+
+Denotes whether the current user has already liked or not
+
 
 ___
+
+
+
+
 <a id="didilike"></a>
 
 ###  didILike
 
 **● didILike**: *`boolean`* = false
 
-*Defined in model/KASFormReaction.ts:11*
+
+Denotes whether the current user has already liked or not
+
 
 ___
+
+
+
+
 <a id="hidecomments"></a>
 
 ###  hideComments
 
 **● hideComments**: *`boolean`* = false
 
-*Defined in model/KASFormReaction.ts:17*
+
+Denotes whether to show comments or not
+
 
 ___
+
+
+
+
 <a id="hidelikes"></a>
 
 ###  hideLikes
 
 **● hideLikes**: *`boolean`* = false
 
-*Defined in model/KASFormReaction.ts:20*
+
+Denotes whether to show likes or not
+
 
 ___
+
+
+
+
 <a id="hidelikesdetails"></a>
 
 ###  hideLikesDetails
 
 **● hideLikesDetails**: *`boolean`* = false
 
-*Defined in model/KASFormReaction.ts:23*
+
+Denotes whether to show likes imeersive view or not
+
 
 ___
+
+
+
+
 <a id="likescount"></a>
 
 ###  likesCount
 
 **● likesCount**: *`number`* = 0
 
-*Defined in model/KASFormReaction.ts:5*
+
+Number of likes received for the form
+
 
 ___
+
+
+
+
 
 ## Methods
 
@@ -97,8 +143,6 @@ ___
 ### `<Static>` fromJSON
 
 ▸ **fromJSON**(object: *`JSON`*): [KASFormReaction](kasclient.kasformreaction.md)
-
-*Defined in model/KASFormReaction.ts:25*
 
 **Parameters:**
 
@@ -109,4 +153,8 @@ ___
 **Returns:** [KASFormReaction](kasclient.kasformreaction.md)
 
 ___
+
+
+
+
 

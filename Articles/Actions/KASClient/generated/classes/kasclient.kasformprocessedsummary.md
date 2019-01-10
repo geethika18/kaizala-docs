@@ -1,4 +1,4 @@
-[type-doc](../README.md) > [KASClient](../modules/kasclient.md) > [KASFormProcessedSummary](../classes/kasclient.kasformprocessedsummary.md)
+[](../README.md) > [KASClient](../modules/kasclient.md) > [KASFormProcessedSummary](../classes/kasclient.kasformprocessedsummary.md)
 
 # Class: KASFormProcessedSummary
 
@@ -16,9 +16,13 @@
 * [targetResponderCount](kasclient.kasformprocessedsummary.md#targetrespondercount)
 * [totalResponseCount](kasclient.kasformprocessedsummary.md#totalresponsecount)
 
+
 ### Methods
 
 * [fromJSON](kasclient.kasformprocessedsummary.md#fromjson)
+
+
+
 
 ---
 
@@ -30,47 +34,72 @@
 
 **● json**: *`JSON`*
 
-*Defined in model/KASFormProcessedSummary.ts:16*
-
 ___
+
+
+
+
 <a id="nonrespondersinconversation"></a>
 
 ###  nonRespondersInConversation
 
 **● nonRespondersInConversation**: *`string`[]* =  []
 
-*Defined in model/KASFormProcessedSummary.ts:4*
+
+How many in the conversation did not respond
+
 
 ___
+
+
+
+
 <a id="results"></a>
 
 ###  results
 
 **● results**: *`object`*
 
-*Defined in model/KASFormProcessedSummary.ts:14*
+
+Aggregated result for aggregative questions Dictionary<QuestionId: number, Result: KASQuestionResult>
 
 #### Type declaration
 
 ___
+
+
+
+
 <a id="targetrespondercount"></a>
 
 ###  targetResponderCount
 
 **● targetResponderCount**: *`number`* = 0
 
-*Defined in model/KASFormProcessedSummary.ts:7*
+
+How many in the conversation were assigned to respond to this form
+
 
 ___
+
+
+
+
 <a id="totalresponsecount"></a>
 
 ###  totalResponseCount
 
 **● totalResponseCount**: *`number`* = 0
 
-*Defined in model/KASFormProcessedSummary.ts:10*
+
+How many total responses were received for the form, considering multiple responses from one person
+
 
 ___
+
+
+
+
 
 ## Methods
 
@@ -79,8 +108,6 @@ ___
 ### `<Static>` fromJSON
 
 ▸ **fromJSON**(object: *`JSON`*): [KASFormProcessedSummary](kasclient.kasformprocessedsummary.md)
-
-*Defined in model/KASFormProcessedSummary.ts:18*
 
 **Parameters:**
 
@@ -91,4 +118,8 @@ ___
 **Returns:** [KASFormProcessedSummary](kasclient.kasformprocessedsummary.md)
 
 ___
+
+
+
+
 

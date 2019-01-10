@@ -1,4 +1,4 @@
-[type-doc](../README.md) > [KASClient](../modules/kasclient.md) > [ImagePickerSource](../enums/kasclient.imagepickersource.md)
+[](../README.md) > [KASClient](../modules/kasclient.md) > [ImagePickerSource](../enums/kasclient.imagepickersource.md)
 
 # Enumeration: ImagePickerSource
 
@@ -10,6 +10,9 @@
 * [CameraBack](kasclient.imagepickersource.md#cameraback)
 * [CameraFront](kasclient.imagepickersource.md#camerafront)
 
+
+
+
 ---
 
 ## Enumeration members
@@ -20,25 +23,31 @@
 
 **All**:  = 0
 
-*Defined in model/KASImageQuestionConfig.ts:6*
-
 ___
+
+
+
+
 <a id="cameraback"></a>
 
 ###  CameraBack
 
 **CameraBack**:  = 2
 
-*Defined in model/KASImageQuestionConfig.ts:12*
-
 ___
+
+
+
+
 <a id="camerafront"></a>
 
 ###  CameraFront
 
 **CameraFront**:  = 1
 
-*Defined in model/KASImageQuestionConfig.ts:9*
-
 ___
+
+
+
+
 

@@ -1,4 +1,4 @@
-[type-doc](../README.md) > [KASClient](../modules/kasclient.md) > [KASFormPropertyUpdateFactory](../classes/kasclient.kasformpropertyupdatefactory.md)
+[](../README.md) > [KASClient](../modules/kasclient.md) > [KASFormPropertyUpdateFactory](../classes/kasclient.kasformpropertyupdatefactory.md)
 
 # Class: KASFormPropertyUpdateFactory
 
@@ -17,6 +17,9 @@
 * [replaceEntryInPropertyValue](kasclient.kasformpropertyupdatefactory.md#replaceentryinpropertyvalue)
 * [updateValueInProperty](kasclient.kasformpropertyupdatefactory.md#updatevalueinproperty)
 
+
+
+
 ---
 
 ## Methods
@@ -27,8 +30,6 @@
 
 ▸ **addEntriesInPropertyValue**(entries: *`string`[]*, property: *[KASFormProperty](kasclient.kasformproperty.md)*): [KASFormPropertyUpdateInfo](kasclient.kasformpropertyupdateinfo.md)
 
-*Defined in model/KASFormPropertyUpdateFactory.ts:45*
-
 **Parameters:**
 
 | Name | Type |
@@ -39,14 +40,16 @@
 **Returns:** [KASFormPropertyUpdateInfo](kasclient.kasformpropertyupdateinfo.md)
 
 ___
+
+
+
+
 <a id="addproperty"></a>
 
 ### `<Static>` addProperty
 
 ▸ **addProperty**(property: *[KASFormProperty](kasclient.kasformproperty.md)*): [KASFormPropertyUpdateInfo](kasclient.kasformpropertyupdateinfo.md)
 
-*Defined in model/KASFormPropertyUpdateFactory.ts:15*
-
 **Parameters:**
 
 | Name | Type |
@@ -56,13 +59,15 @@ ___
 **Returns:** [KASFormPropertyUpdateInfo](kasclient.kasformpropertyupdateinfo.md)
 
 ___
+
+
+
+
 <a id="deleteentriesfrompropertyvalue"></a>
 
 ### `<Static>` deleteEntriesFromPropertyValue
 
 ▸ **deleteEntriesFromPropertyValue**(entries: *`string`[]*, property: *[KASFormProperty](kasclient.kasformproperty.md)*): [KASFormPropertyUpdateInfo](kasclient.kasformpropertyupdateinfo.md)
-
-*Defined in model/KASFormPropertyUpdateFactory.ts:58*
 
 **Parameters:**
 
@@ -74,13 +79,15 @@ ___
 **Returns:** [KASFormPropertyUpdateInfo](kasclient.kasformpropertyupdateinfo.md)
 
 ___
+
+
+
+
 <a id="deleteproperty"></a>
 
 ### `<Static>` deleteProperty
 
 ▸ **deleteProperty**(property: *[KASFormProperty](kasclient.kasformproperty.md)*): [KASFormPropertyUpdateInfo](kasclient.kasformpropertyupdateinfo.md)
-
-*Defined in model/KASFormPropertyUpdateFactory.ts:24*
 
 **Parameters:**
 
@@ -91,13 +98,15 @@ ___
 **Returns:** [KASFormPropertyUpdateInfo](kasclient.kasformpropertyupdateinfo.md)
 
 ___
+
+
+
+
 <a id="replaceentryinpropertyvalue"></a>
 
 ### `<Static>` replaceEntryInPropertyValue
 
 ▸ **replaceEntryInPropertyValue**(oldEntry: *`string`*, newEntry: *`string`*, property: *[KASFormProperty](kasclient.kasformproperty.md)*): [KASFormPropertyUpdateInfo](kasclient.kasformpropertyupdateinfo.md)
-
-*Defined in model/KASFormPropertyUpdateFactory.ts:32*
 
 **Parameters:**
 
@@ -110,13 +119,15 @@ ___
 **Returns:** [KASFormPropertyUpdateInfo](kasclient.kasformpropertyupdateinfo.md)
 
 ___
+
+
+
+
 <a id="updatevalueinproperty"></a>
 
 ### `<Static>` updateValueInProperty
 
 ▸ **updateValueInProperty**(newValue: *`string`*, property: *[KASFormProperty](kasclient.kasformproperty.md)*): [KASFormPropertyUpdateInfo](kasclient.kasformpropertyupdateinfo.md)
-
-*Defined in model/KASFormPropertyUpdateFactory.ts:6*
 
 **Parameters:**
 
@@ -128,4 +139,8 @@ ___
 **Returns:** [KASFormPropertyUpdateInfo](kasclient.kasformpropertyupdateinfo.md)
 
 ___
+
+
+
+
 

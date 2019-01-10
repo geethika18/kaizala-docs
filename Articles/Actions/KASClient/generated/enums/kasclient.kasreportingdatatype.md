@@ -1,6 +1,7 @@
-[type-doc](../README.md) > [KASClient](../modules/kasclient.md) > [KASReportingDataType](../enums/kasclient.kasreportingdatatype.md)
+[](../README.md) > [KASClient](../modules/kasclient.md) > [KASReportingDataType](../enums/kasclient.kasreportingdatatype.md)
 
 # Enumeration: KASReportingDataType
+
 
 Reporting type enum used in KASClient.Form.getFormReportingDataAsync API
 
@@ -9,6 +10,9 @@ Reporting type enum used in KASClient.Form.getFormReportingDataAsync API
 ### Enumeration members
 
 * [NonRespondingUsers](kasclient.kasreportingdatatype.md#nonrespondingusers)
+
+
+
 
 ---
 
@@ -20,7 +24,9 @@ Reporting type enum used in KASClient.Form.getFormReportingDataAsync API
 
 **NonRespondingUsers**:  = 1
 
-*Defined in model/KASReportingDataType.ts:10*
-
 ___
+
+
+
+
 

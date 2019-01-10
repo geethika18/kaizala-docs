@@ -1,4 +1,4 @@
-[type-doc](../README.md) > [KASClient](../modules/kasclient.md) > [KASOptionResult](../classes/kasclient.kasoptionresult.md)
+[](../README.md) > [KASClient](../modules/kasclient.md) > [KASOptionResult](../classes/kasclient.kasoptionresult.md)
 
 # Class: KASOptionResult
 
@@ -15,9 +15,13 @@
 * [responderToResponseCount](kasclient.kasoptionresult.md#respondertoresponsecount)
 * [totalResponsesCount](kasclient.kasoptionresult.md#totalresponsescount)
 
+
 ### Methods
 
 * [fromJSON](kasclient.kasoptionresult.md#fromjson)
+
+
+
 
 ---
 
@@ -29,38 +33,61 @@
 
 **● optionId**: *`number`* = 0
 
-*Defined in model/KASOptionResult.ts:7*
+
+Index of the option
+
 
 ___
+
+
+
+
 <a id="optiontitle"></a>
 
 ###  optionTitle
 
 **● optionTitle**: *`string`* = ""
 
-*Defined in model/KASOptionResult.ts:4*
+
+Title of the option
+
 
 ___
+
+
+
+
 <a id="respondertoresponsecount"></a>
 
 ###  responderToResponseCount
 
 **● responderToResponseCount**: *`object`*
 
-*Defined in model/KASOptionResult.ts:14*
+
+A map of user ids against their response count Dictionary<UserId: string, ResponseCount: number>
 
 #### Type declaration
 
 ___
+
+
+
+
 <a id="totalresponsescount"></a>
 
 ###  totalResponsesCount
 
 **● totalResponsesCount**: *`number`* = 0
 
-*Defined in model/KASOptionResult.ts:10*
+
+How many have chosen this option
+
 
 ___
+
+
+
+
 
 ## Methods
 
@@ -69,8 +96,6 @@ ___
 ### `<Static>` fromJSON
 
 ▸ **fromJSON**(object: *`any`*): [KASOptionResult](kasclient.kasoptionresult.md)
-
-*Defined in model/KASOptionResult.ts:16*
 
 **Parameters:**
 
@@ -81,4 +106,8 @@ ___
 **Returns:** [KASOptionResult](kasclient.kasoptionresult.md)
 
 ___
+
+
+
+
 

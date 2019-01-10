@@ -1,4 +1,4 @@
-[type-doc](../README.md) > [KASClient](../modules/kasclient.md) > [KASFormPropertyFactory](../classes/kasclient.kasformpropertyfactory.md)
+[](../README.md) > [KASClient](../modules/kasclient.md) > [KASFormPropertyFactory](../classes/kasclient.kasformpropertyfactory.md)
 
 # Class: KASFormPropertyFactory
 
@@ -12,6 +12,9 @@
 
 * [getAttachmentListProperty](kasclient.kasformpropertyfactory.md#getattachmentlistproperty)
 
+
+
+
 ---
 
 ## Methods
@@ -21,8 +24,6 @@
 ### `<Static>` getAttachmentListProperty
 
 ▸ **getAttachmentListProperty**(selectedAttachments: *[KASAttachment](kasclient.kasattachment.md)[]*, name: *`string`*): [KASFormProperty](kasclient.kasformproperty.md)
-
-*Defined in model/KASFormPropertyFactory.ts:4*
 
 **Parameters:**
 
@@ -34,4 +35,8 @@
 **Returns:** [KASFormProperty](kasclient.kasformproperty.md)
 
 ___
+
+
+
+
 

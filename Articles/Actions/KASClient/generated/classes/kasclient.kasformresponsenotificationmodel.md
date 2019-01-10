@@ -1,4 +1,4 @@
-[type-doc](../README.md) > [KASClient](../modules/kasclient.md) > [KASFormResponseNotificationModel](../classes/kasclient.kasformresponsenotificationmodel.md)
+[](../README.md) > [KASClient](../modules/kasclient.md) > [KASFormResponseNotificationModel](../classes/kasclient.kasformresponsenotificationmodel.md)
 
 # Class: KASFormResponseNotificationModel
 
@@ -12,16 +12,21 @@
 
 * [constructor](kasclient.kasformresponsenotificationmodel.md#constructor)
 
+
 ### Properties
 
 * [messagePreview](kasclient.kasformresponsenotificationmodel.md#messagepreview)
 * [messageTarget](kasclient.kasformresponsenotificationmodel.md#messagetarget)
 * [pushTarget](kasclient.kasformresponsenotificationmodel.md#pushtarget)
 
+
 ### Methods
 
 * [toJSON](kasclient.kasformresponsenotificationmodel.md#tojson)
 * [fromJson](kasclient.kasformresponsenotificationmodel.md#fromjson)
+
+
+
 
 ---
 
@@ -32,8 +37,6 @@
 ###  constructor
 
 ⊕ **new KASFormResponseNotificationModel**(messageTarget?: *[KASFormResponseNotificationTarget](../enums/kasclient.kasformresponsenotificationtarget.md)[]*, pushTarget?: *[KASFormResponseNotificationTarget](../enums/kasclient.kasformresponsenotificationtarget.md)[]*, messagePreview?: *`String`*): [KASFormResponseNotificationModel](kasclient.kasformresponsenotificationmodel.md)
-
-*Defined in model/KASFormResponseNotificationModel.ts:12*
 
 **Parameters:**
 
@@ -47,6 +50,10 @@
 
 ___
 
+
+
+
+
 ## Properties
 
 <a id="messagepreview"></a>
@@ -55,27 +62,33 @@ ___
 
 **● messagePreview**: *`String`* = ""
 
-*Defined in model/KASFormResponseNotificationModel.ts:12*
-
 ___
+
+
+
+
 <a id="messagetarget"></a>
 
 ###  messageTarget
 
 **● messageTarget**: *[KASFormResponseNotificationTarget](../enums/kasclient.kasformresponsenotificationtarget.md)[]*
 
-*Defined in model/KASFormResponseNotificationModel.ts:10*
-
 ___
+
+
+
+
 <a id="pushtarget"></a>
 
 ###  pushTarget
 
 **● pushTarget**: *[KASFormResponseNotificationTarget](../enums/kasclient.kasformresponsenotificationtarget.md)[]*
 
-*Defined in model/KASFormResponseNotificationModel.ts:11*
-
 ___
+
+
+
+
 
 ## Methods
 
@@ -85,18 +98,18 @@ ___
 
 ▸ **toJSON**(): `JSON`
 
-*Defined in model/KASFormResponseNotificationModel.ts:42*
-
 **Returns:** `JSON`
 
 ___
+
+
+
+
 <a id="fromjson"></a>
 
 ### `<Static>` fromJson
 
 ▸ **fromJson**(object: *`JSON`*): [KASFormResponseNotificationModel](kasclient.kasformresponsenotificationmodel.md)
-
-*Defined in model/KASFormResponseNotificationModel.ts:20*
 
 **Parameters:**
 
@@ -107,4 +120,8 @@ ___
 **Returns:** [KASFormResponseNotificationModel](kasclient.kasformresponsenotificationmodel.md)
 
 ___
+
+
+
+
 

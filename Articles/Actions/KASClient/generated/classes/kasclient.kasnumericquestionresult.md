@@ -1,4 +1,4 @@
-[type-doc](../README.md) > [KASClient](../modules/kasclient.md) > [KASNumericQuestionResult](../classes/kasclient.kasnumericquestionresult.md)
+[](../README.md) > [KASClient](../modules/kasclient.md) > [KASNumericQuestionResult](../classes/kasclient.kasnumericquestionresult.md)
 
 # Class: KASNumericQuestionResult
 
@@ -18,9 +18,13 @@
 * [questionType](kasclient.kasnumericquestionresult.md#questiontype)
 * [sum](kasclient.kasnumericquestionresult.md#sum)
 
+
 ### Methods
 
 * [fromJSON](kasclient.kasnumericquestionresult.md#fromjson)
+
+
+
 
 ---
 
@@ -32,51 +36,71 @@
 
 **● average**: *`number`* = 0
 
-*Defined in model/KASNumericQuestionResult.ts:7*
-
 ___
+
+
+
+
 <a id="questionid"></a>
 
 ###  questionId
 
 **● questionId**: *`number`* = 0
 
-*Inherited from [KASQuestionResult](kasclient.kasquestionresult.md).[questionId](kasclient.kasquestionresult.md#questionid)*
 
-*Defined in model/KASQuestionResult.ts:10*
+Index of the question
+
 
 ___
+
+
+
+
 <a id="questiontitle"></a>
 
 ###  questionTitle
 
 **● questionTitle**: *`string`* = ""
 
-*Inherited from [KASQuestionResult](kasclient.kasquestionresult.md).[questionTitle](kasclient.kasquestionresult.md#questiontitle)*
 
-*Defined in model/KASQuestionResult.ts:4*
+Title of the question
+
 
 ___
+
+
+
+
 <a id="questiontype"></a>
 
 ###  questionType
 
 **● questionType**: *[KASQuestionType](../enums/kasclient.kasquestiontype.md)* =  KASQuestionType.None
 
-*Inherited from [KASQuestionResult](kasclient.kasquestionresult.md).[questionType](kasclient.kasquestionresult.md#questiontype)*
 
-*Defined in model/KASQuestionResult.ts:7*
+Type of the question
+
 
 ___
+
+
+
+
 <a id="sum"></a>
 
 ###  sum
 
 **● sum**: *`number`* = 0
 
-*Defined in model/KASNumericQuestionResult.ts:6*
+
+For Numeric questions the aggregated result will be sum, and average of all the responses
+
 
 ___
+
+
+
+
 
 ## Methods
 
@@ -85,10 +109,6 @@ ___
 ### `<Static>` fromJSON
 
 ▸ **fromJSON**(object: *`any`*): [KASNumericQuestionResult](kasclient.kasnumericquestionresult.md)
-
-*Overrides [KASQuestionResult](kasclient.kasquestionresult.md).[fromJSON](kasclient.kasquestionresult.md#fromjson)*
-
-*Defined in model/KASNumericQuestionResult.ts:9*
 
 **Parameters:**
 
@@ -99,4 +119,8 @@ ___
 **Returns:** [KASNumericQuestionResult](kasclient.kasnumericquestionresult.md)
 
 ___
+
+
+
+
 

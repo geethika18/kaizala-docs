@@ -1,6 +1,7 @@
-[type-doc](../README.md) > [KASClient](../modules/kasclient.md) > [KASShareObjectType](../enums/kasclient.kasshareobjecttype.md)
+[](../README.md) > [KASClient](../modules/kasclient.md) > [KASShareObjectType](../enums/kasclient.kasshareobjecttype.md)
 
 # Enumeration: KASShareObjectType
+
 
 The following enum values MUST be in sync with the ShareObjectType enum representation in iOS and Android code. This is vital for proper serialization and deserialization over the KAS bridge.
 
@@ -9,6 +10,9 @@ The following enum values MUST be in sync with the ShareObjectType enum represen
 ### Enumeration members
 
 * [Image](kasclient.kasshareobjecttype.md#image)
+
+
+
 
 ---
 
@@ -20,7 +24,9 @@ The following enum values MUST be in sync with the ShareObjectType enum represen
 
 **Image**:  = 1
 
-*Defined in model/KASShareObjectType.ts:7*
-
 ___
+
+
+
+
 

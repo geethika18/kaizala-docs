@@ -1,4 +1,4 @@
-[type-doc](../README.md) > [KASClient](../modules/kasclient.md)
+[](../README.md) > [KASClient](../modules/kasclient.md)
 
 # Module: KASClient
 
@@ -8,6 +8,7 @@
 
 * [App](kasclient.app.md)
 * [Form](kasclient.form.md)
+
 
 ### Enumerations
 
@@ -36,6 +37,7 @@
 * [NotificationPriority](../enums/kasclient.notificationpriority.md)
 * [UrlAction](../enums/kasclient.urlaction.md)
 * [UrlType](../enums/kasclient.urltype.md)
+
 
 ### Classes
 
@@ -86,10 +88,14 @@
 * [KASVideoAttachment](../classes/kasclient.kasvideoattachment.md)
 * [KASVisibilityRule](../classes/kasclient.kasvisibilityrule.md)
 
+
 ### Functions
 
 * [getFilteredParticipantRole](kasclient.md#getfilteredparticipantrole)
 * [getFilteredParticipantType](kasclient.md#getfilteredparticipanttype)
+
+
+
 
 ---
 
@@ -101,8 +107,6 @@
 
 ▸ **getFilteredParticipantRole**(role: *`any`*): [KASParticipantRole](../enums/kasclient.kasparticipantrole.md)
 
-*Defined in model/KASParticipantRole.ts:20*
-
 **Parameters:**
 
 | Name | Type |
@@ -112,13 +116,15 @@
 **Returns:** [KASParticipantRole](../enums/kasclient.kasparticipantrole.md)
 
 ___
+
+
+
+
 <a id="getfilteredparticipanttype"></a>
 
 ###  getFilteredParticipantType
 
 ▸ **getFilteredParticipantType**(type: *`any`*): [KASParticipantType](../enums/kasclient.kasparticipanttype.md)
-
-*Defined in model/KASParticipantType.ts:16*
 
 **Parameters:**
 
@@ -129,4 +135,8 @@ ___
 **Returns:** [KASParticipantType](../enums/kasclient.kasparticipanttype.md)
 
 ___
+
+
+
+
 

@@ -1,4 +1,4 @@
-[type-doc](../README.md) > [KASClient](../modules/kasclient.md) > [KASForm](../classes/kasclient.kasform.md)
+[](../README.md) > [KASClient](../modules/kasclient.md) > [KASForm](../classes/kasclient.kasform.md)
 
 # Class: KASForm
 
@@ -29,6 +29,7 @@
 * [version](kasclient.kasform.md#version)
 * [visibility](kasclient.kasform.md#visibility)
 
+
 ### Methods
 
 * [getAPICompatibleVisibilityType](kasclient.kasform.md#getapicompatiblevisibilitytype)
@@ -37,6 +38,9 @@
 * [toJSON](kasclient.kasform.md#tojson)
 * [addResponseNotificationForAddRow](kasclient.kasform.md#addresponsenotificationforaddrow)
 * [fromJSON](kasclient.kasform.md#fromjson)
+
+
+
 
 ---
 
@@ -48,162 +52,266 @@
 
 **● allowSendReminder**: *[KASFormResultVisibility](../enums/kasclient.kasformresultvisibility.md)* =  KASFormResultVisibility.Sender
 
-*Defined in model/KASForm.ts:31*
+
+Who can send reminder, default value is sender
+
 
 ___
+
+
+
+
 <a id="conversationid"></a>
 
 ###  conversationId
 
 **● conversationId**: *`string`* = ""
 
-*Defined in model/KASForm.ts:7*
+
+Associated conversation id, shouldn't be changed
+
 
 ___
+
+
+
+
 <a id="creatorid"></a>
 
 ###  creatorId
 
 **● creatorId**: *`string`* = ""
 
-*Defined in model/KASForm.ts:13*
+
+User id who created the form, shouldn't be changed
+
 
 ___
+
+
+
+
 <a id="expiry"></a>
 
 ###  expiry
 
 **● expiry**: *`number`* = 0
 
-*Defined in model/KASForm.ts:22*
+
+Expiry time of the form
+
 
 ___
+
+
+
+
 <a id="id"></a>
 
 ###  id
 
 **● id**: *`string`* = ""
 
-*Defined in model/KASForm.ts:4*
+
+Form id, shouldn't be changed
+
 
 ___
+
+
+
+
 <a id="isanonymous"></a>
 
 ###  isAnonymous
 
 **● isAnonymous**: *`boolean`* = false
 
-*Defined in model/KASForm.ts:19*
+
+If the form is anonymous, default is false
+
 
 ___
+
+
+
+
 <a id="isgrouplevelaggregationrequired"></a>
 
 ###  isGroupLevelAggregationRequired
 
 **● isGroupLevelAggregationRequired**: *`boolean`* = false
 
-*Defined in model/KASForm.ts:37*
+
+whether server should do subgroup level aggregation on results for this action instance
+
 
 ___
+
+
+
+
 <a id="islocationrequested"></a>
 
 ###  isLocationRequested
 
 **● isLocationRequested**: *`boolean`* = false
 
-*Defined in model/KASForm.ts:40*
+
+Denotes if participants' location is attached with the response or not, default is false
+
 
 ___
+
+
+
+
 <a id="isresponseappended"></a>
 
 ###  isResponseAppended
 
 **● isResponseAppended**: *`boolean`* = false
 
-*Defined in model/KASForm.ts:34*
+
+Denotes if multiple responses from a user are allowed or not, default is false
+
 
 ___
+
+
+
+
 <a id="json"></a>
 
 ###  json
 
 **● json**: *`JSON`*
 
-*Defined in model/KASForm.ts:57*
-
 ___
+
+
+
+
 <a id="packageid"></a>
 
 ###  packageId
 
 **● packageId**: *`string`* = ""
 
-*Defined in model/KASForm.ts:10*
+
+Package id of the MiniApp, shouldn't be changed
+
 
 ___
+
+
+
+
 <a id="properties"></a>
 
 ###  properties
 
 **● properties**: *[KASFormProperty](kasclient.kasformproperty.md)[]* =  []
 
-*Defined in model/KASForm.ts:52*
+
+A list of metadata associated with the form
+
 
 ___
+
+
+
+
 <a id="questions"></a>
 
 ###  questions
 
 **● questions**: *[KASQuestion](kasclient.kasquestion.md)[]* =  []
 
-*Defined in model/KASForm.ts:49*
+
+All the questions associated with the form
+
 
 ___
+
+
+
+
 <a id="reporttype"></a>
 
 ###  reportType
 
 **● reportType**: *`number`* = 0
 
-*Defined in model/KASForm.ts:46*
+
+Report Type of survey, default is 0, for job it should be 1
+
 
 ___
+
+
+
+
 <a id="title"></a>
 
 ###  title
 
 **● title**: *`string`* = ""
 
-*Defined in model/KASForm.ts:16*
+
+Form title
+
 
 ___
+
+
+
+
 <a id="type"></a>
 
 ###  type
 
 **● type**: *`number`* = 20
 
-*Defined in model/KASForm.ts:43*
+
+Type of the form, default is 20, shouldn't be changed
+
 
 ___
+
+
+
+
 <a id="version"></a>
 
 ###  version
 
 **● version**: *`number`* = 2
 
-*Defined in model/KASForm.ts:25*
+
+Version of the form, default value is 2, shouldn't be changed
+
 
 ___
+
+
+
+
 <a id="visibility"></a>
 
 ###  visibility
 
 **● visibility**: *[KASFormResultVisibility](../enums/kasclient.kasformresultvisibility.md)* =  KASFormResultVisibility.All
 
-*Defined in model/KASForm.ts:28*
+
+Who can see the summary of the form, default value is All
+
 
 ___
+
+
+
+
 
 ## Methods
 
@@ -212,8 +320,6 @@ ___
 ###  getAPICompatibleVisibilityType
 
 ▸ **getAPICompatibleVisibilityType**(visibilityType: *[KASFormResultVisibility](../enums/kasclient.kasformresultvisibility.md)*): `string`
-
-*Defined in model/KASForm.ts:137*
 
 **Parameters:**
 
@@ -224,46 +330,54 @@ ___
 **Returns:** `string`
 
 ___
+
+
+
+
 <a id="toapicompatiblejson"></a>
 
 ###  toAPICompatibleJSON
 
 ▸ **toAPICompatibleJSON**(): `JSON`
 
-*Defined in model/KASForm.ts:108*
-
 **Returns:** `JSON`
 
 ___
+
+
+
+
 <a id="toclientjson"></a>
 
 ###  toClientJSON
 
 ▸ **toClientJSON**(): `JSON`
 
-*Defined in model/KASForm.ts:68*
-
 **Returns:** `JSON`
 
 ___
+
+
+
+
 <a id="tojson"></a>
 
 ###  toJSON
 
 ▸ **toJSON**(): `JSON`
 
-*Defined in model/KASForm.ts:59*
-
 **Returns:** `JSON`
 
 ___
+
+
+
+
 <a id="addresponsenotificationforaddrow"></a>
 
 ### `<Static>` addResponseNotificationForAddRow
 
 ▸ **addResponseNotificationForAddRow**(form: *[KASForm](kasclient.kasform.md)*, notificationSpec: *[KASFormResponseNotificationModel](kasclient.kasformresponsenotificationmodel.md)*): `void`
-
-*Defined in model/KASForm.ts:244*
 
 **Parameters:**
 
@@ -275,13 +389,15 @@ ___
 **Returns:** `void`
 
 ___
+
+
+
+
 <a id="fromjson"></a>
 
 ### `<Static>` fromJSON
 
 ▸ **fromJSON**(object: *`JSON`*): [KASForm](kasclient.kasform.md)
-
-*Defined in model/KASForm.ts:153*
 
 **Parameters:**
 
@@ -292,4 +408,8 @@ ___
 **Returns:** [KASForm](kasclient.kasform.md)
 
 ___
+
+
+
+
 

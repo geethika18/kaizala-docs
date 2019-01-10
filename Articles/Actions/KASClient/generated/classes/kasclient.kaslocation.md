@@ -1,4 +1,4 @@
-[type-doc](../README.md) > [KASClient](../modules/kasclient.md) > [KASLocation](../classes/kasclient.kaslocation.md)
+[](../README.md) > [KASClient](../modules/kasclient.md) > [KASLocation](../classes/kasclient.kaslocation.md)
 
 # Class: KASLocation
 
@@ -15,10 +15,14 @@
 * [placeAddress](kasclient.kaslocation.md#placeaddress)
 * [placeName](kasclient.kaslocation.md#placename)
 
+
 ### Methods
 
 * [toJSON](kasclient.kaslocation.md#tojson)
 * [fromJSON](kasclient.kaslocation.md#fromjson)
+
+
+
 
 ---
 
@@ -30,36 +34,60 @@
 
 **● latitude**: *`number`* = 0
 
-*Defined in model/KASLocation.ts:4*
+
+Latitude of the location
+
 
 ___
+
+
+
+
 <a id="longitude"></a>
 
 ###  longitude
 
 **● longitude**: *`number`* = 0
 
-*Defined in model/KASLocation.ts:7*
+
+Longitude of the location
+
 
 ___
+
+
+
+
 <a id="placeaddress"></a>
 
 ###  placeAddress
 
 **● placeAddress**: *`string`* = ""
 
-*Defined in model/KASLocation.ts:13*
+
+Address of the location
+
 
 ___
+
+
+
+
 <a id="placename"></a>
 
 ###  placeName
 
 **● placeName**: *`string`* = ""
 
-*Defined in model/KASLocation.ts:10*
+
+Name of the location
+
 
 ___
+
+
+
+
 
 ## Methods
 
@@ -69,18 +97,18 @@ ___
 
 ▸ **toJSON**(): `JSON`
 
-*Defined in model/KASLocation.ts:41*
-
 **Returns:** `JSON`
 
 ___
+
+
+
+
 <a id="fromjson"></a>
 
 ### `<Static>` fromJSON
 
 ▸ **fromJSON**(object: *`JSON`*): [KASLocation](kasclient.kaslocation.md)
-
-*Defined in model/KASLocation.ts:15*
 
 **Parameters:**
 
@@ -91,4 +119,8 @@ ___
 **Returns:** [KASLocation](kasclient.kaslocation.md)
 
 ___
+
+
+
+
 
