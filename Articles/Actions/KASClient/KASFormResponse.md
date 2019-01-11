@@ -1,4 +1,3 @@
-# KASFormResponse
 ```typescript
 class KASFormResponse {
   // A unique response id, required in case of updating an existing response

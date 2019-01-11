@@ -1,4 +1,3 @@
-# KASQuestionResult
 ```typescript
 class KASQuestionResult {
   // Title of the question

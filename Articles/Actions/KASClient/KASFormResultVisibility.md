@@ -1,4 +1,3 @@
-# KASFormResultVisibility
 ```typescript
 enum KASFormResultVisibility {
   // Form summary is visible to everyone in the conversation

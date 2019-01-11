@@ -58,6 +58,16 @@
 
 Initializes and returns an empty form object based on the default form file present in the package
 
+#### Sample Usage
+
+```
+KASClient.Form.initFormAsync(function (form, error) {
+     if (error != null) {
+         // use form
+     }
+});
+```
+
 
 **Parameters:**
 

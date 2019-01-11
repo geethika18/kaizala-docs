@@ -1,4 +1,3 @@
-# KASOptionQuestionResult
 ```typescript
 class KASOptionQuestionResult extends KASQuestionResult {
   // For SingleSelect/MultiSelect question, the result will be option id versus their counts

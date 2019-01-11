@@ -1,4 +1,3 @@
-# KASForm
 ```typescript
 class KASForm {
   // Form id, shouldn't be changed

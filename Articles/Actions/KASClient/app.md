@@ -32,7 +32,7 @@
 | **registerHardwareBackPressCallback** | Registers a callback to be executed on hardware back button press (for Android) | | |
 | **initLocalizationStringsAsync** | Initializes the localization strings' map | Dictionary  - the strings' map | Success(Boolean) denotes the success/failure of the initialization |
 | **getString** |	Returns a string from the localized strings' file |stringId	||
-
+| **getConversationDetailsAsync** |	Gets all context for current conversation|| KASConversationDetails|
 
 ##  Get user info
 
@@ -211,4 +211,115 @@
   * @param {string[]} args array of arguments.
   */
   function printf(main: string, ...args: any[]): string
+```
+
+##  show profile info of a user. 
+##	Warning: once you start a new conversation either from dialog box or full screen profile view
+##	by tapping on chat icon, all changes done in the current conversation are lost
+
+```typescript
+/**
+  * shows a dialog box with user's profile info (isMiniProfile == true) 
+  *	or a full screen view of the user's profile (isMiniProfile == false)
+  * @param {string} user id of the user whose profile is to be shown
+  * @param {boolean} whether to show a dialog box with user's profile info or a full screen profile.
+  * @param {Callback} callback with below parameters:
+  * * * * @param {JSON} whether successful or not, can be null in case of error
+  * * * * @param {string} error message in case of error, null otherwise
+  */
+  function showUserProfileAsync(userId: string, isMiniProfile: boolean, callback: (success: boolean, error: string) => void)
+```
+##  starts one on one conversation with the user
+##	would not work inside public groups
+
+```typescript
+/**
+  * starts one on one conversation directly with the user
+  * @param {string} user id of the user
+  * @param {Callback} callback with below parameters:
+  * * * * @param {boolean} whether successful or not, can be null in case of error
+  * * * * @param {string} error message in case of error, null otherwise
+  */
+  function startChatAsync(userId: string, callback: (success: boolean, error: string) => void)
+```
+##  Opens camera to scan bar codes
+
+```typescript
+/**
+  * Opens camera to scan Bar codes
+  * @param {Callback} callback with below parameters:
+  * * * * @param {string} string returned after scanning the Bar code
+  * * * * @param {string} error message in case of error, null otherwise
+  */
+  function showBarcodeScannerAsync(callback: (barCodeInfo: string, error: string) => void): void;
+```
+
+##  Opens camera to scan QR codes
+
+```typescript
+/**
+  * Opens camera to scan QR codes
+  * @param {Callback} callback with below parameters:
+  * * * * @param {string} string returned after scanning the QR code
+  * * * * @param {string} error message in case of error, null otherwise
+  */
+  function showQRcodeScannerAsync(callback: (qrCodeInfo: string, error: string) => void): void;
+```
+
+##  Download the base 64 map image for a given location
+
+```typescript
+/**
+  * Download the map image for a given location using Google's "staticmap" API and converts it to base64 string.
+  * @param {KASLocationStaticMapImageParams} object with below parameters:
+  * * * * @param {number} latitude of the location. This is a mandatory field and if not provided API will get an error callback.
+  * * * * @param {number} longitude of the location. This is a mandatory field and if not provided API will get an error callback.
+  * * * * @param {number} width(sizeX) of the image in pixels. This field is optional and default width used is 360.
+  * * * * @param {number} height(sizeY) of the image in pixels. This field is optional and default width used is 170.
+  * * * * @param {string} markerColor of the location marker in the map (as in Google's "staticmap" API). For eg. red, blue etc. This field is optional and by default red color is used.
+  * * * * @param {number} zoom value for the map (as in Google's "staticmap" API). This field is optional and default is up to Google's "staticmap" API.
+  * * * * @param {string} language shown in the map (as in Google's "staticmap" API). For eg. en, hi etc. This field is optional and default is up to Google's "staticmap" API (usually en).
+  * * * * @param {string} mapType as per Google's "staticmap" API. Possible values can be {roadmap, satellite, hybrid, terrain}. This field is optional and default is up to Google's "staticmap" API (usually "roadmap").
+  * @param {Callback} callback with below parameters:
+  * * * * @param {string} base64 string for the image of the map.
+  * * * * @param {string} error message in case of error, null otherwise
+  */
+  function getMapImageAsBase64Async(params: KASLocationStaticMapImageParams, callback: (attachmentString: string, error: string) => void): void;
+```
+
+##  get address information corresponding to a given location
+
+```typescript
+/**
+  * fetches the address list for a given location using Google's "geocode" API and returns the first address's info. from the list. If there are no addresses present for the location, and errorcallabck is invoked.
+  * @param {KASLocationAddressParams} object with below parameters:
+  * * * * @param {number} latitude of the location. This is a mandatory field and if not provided API will get an error callback.
+  * * * * @param {number} longitude of the location. This is a mandatory field and if not provided API will get an error callback.
+  * * * * @param {string} language shown in the map (as in Google's "geocode" API). For eg. en, hi etc. This field is optional and default is en(English).
+  * @param {Callback} callback with below parameters:
+  * * * * @param {JSON} json object containing the address information. The json object is the first item of the "results" fetched from Google's geocode API. Please refer to Google's geocode API's documentation for more information.
+  * * * * @param {string} error message in case of error, null otherwise
+  */
+  function getLocationAddressAsync(params: KASLocationAddressParams, callback: (json: JSON, error: string) => void): void;
+```
+
+##  Gets all context for current conversation
+
+```typescript
+/**
+  * Fetches all present conversation related context from iOS/android client. for example, source conversation id/ type, host conversation id/ type, conversation participants map
+  * @param {Callback} callback with below parameters:
+  * * * * @param {KASConversationDetails} conversation context object
+  * * * * * * * * hostConversationId                 This is the group where current user is part of, as a result of which he received this action. For non hierarchical groups, this is same as source conv
+  * * * * * * * * hostConversationTitle              Name/Title of the host group
+  * * * * * * * * hostConversationType               Type of host conversation
+  * * * * * * * * hostConversationParticipantsMap    Participants map in host conversation.
+  * * * * * * * * sourceConversationId               Conversation where action is received. For non-hierarchical group, this is same as host conversation
+  * * * * * * * * sourceConversationTitle            Name/Title of the source conversation. For non-hierarchical group, this is same as host conversation title
+  * * * * * * * * sourceConversationType             Type of source conversation. For non-hierarchical group, this is same as host conversation type
+  * * * * * * * * currentUserId                      Current user's id
+  * * * * * * * * currentUserRoleInHostConversation  Current user's role in host conversation
+  * * * * @param {string} error message in case of error, null otherwise
+  */
+  function getConversationDetailsAsync(callback: (result: KASConversationDetails, error: string) => void): void;
 ```

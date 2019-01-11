@@ -1,4 +1,3 @@
-# KASFormPropertyType
 ```typescript
 enum KASFormPropertyType {
   // Any text is allowed as the metadata value
@@ -9,7 +8,13 @@ enum KASFormPropertyType {
   Location = 2,
   // Date time as the metadata value
   DateTime = 3,
-  // Array of strings as the metadata value
-  Array = 4
+  // Stringify value of array of strings as the metadata value
+  Array = 4,
+  // Attachment path as the metadata value
+  Attachment = 5,
+  // Stringify value of set (unique list) of strings as the metadata value
+  Set = 6,
+  // Stringify value of list of KASAttachment as metadata value
+  AttachmentList = 7
 }
 ```

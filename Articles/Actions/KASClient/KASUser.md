@@ -1,4 +1,3 @@
-# KASUser
 ```typescript
 class KASUser {
   // Unique user id

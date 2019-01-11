@@ -1,4 +1,3 @@
-# KASLocation
 ```typescript
 class KASLocation{
   // Latitude of the location

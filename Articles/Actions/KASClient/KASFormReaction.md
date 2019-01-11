@@ -1,4 +1,3 @@
-# KASFormReaction
 ```typescript
 class KASFormReaction {
   // Number of likes received for the form

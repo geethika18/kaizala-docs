@@ -1,4 +1,3 @@
-# KASFormProperty
 ```typescript
 class KASFormProperty {
   // Name of the metadata
